@@ -4,13 +4,13 @@
 @tailwind components;
 
 html {
-  font-family: "Rubik", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   @apply bg-white-500;
 }
 p {
-  @apply text-black-500;
+  @apply text-black-600;
 }
 .animation-hover:after {
   background: none repeat scroll 0 0 transparent;

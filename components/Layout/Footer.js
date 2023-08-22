@@ -3,87 +3,112 @@ import LogoVPN from "../../public/assets/Logo.svg";
 import Facebook from "../../public/assets/Icon/facebook.svg";
 import Twitter from "../../public/assets/Icon/twitter.svg";
 import Instagram from "../../public/assets/Icon/instagram.svg";
+import Image from "next/image";
+import { Grid } from "@mui/material";
 const Footer = () => {
   return (
-    <div className="bg-white-300 pt-44 pb-24">
-      <div className="max-w-screen-xl w-full mx-auto px-6 sm:px-8 lg:px-16 grid grid-rows-6 sm:grid-rows-1 grid-flow-row sm:grid-flow-col grid-cols-3 sm:grid-cols-12 gap-4">
-        <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
-          <LogoVPN className="h-8 w-auto mb-6" />
-          <p className="mb-4">
-            <strong className="font-medium">LaslesVPN</strong> is a private
-            virtual network that has unique features and has high security.
-          </p>
-          <div className="flex w-full mt-2 mb-8 -mx-2">
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Facebook className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Twitter className="h-6 w-6" />
-            </div>
-            <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
-              <Instagram className="h-6 w-6" />
-            </div>
-          </div>
-          <p className="text-gray-400">©{new Date().getFullYear()} - LaslesVPN</p>
+    <div className="bg-white-300 pt-44   px-4">
+      <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
+        <div className="  w-full lg:w-1/2 justify-center justify-center" >
+          <Image
+            src="/assets/logo-gray.png"
+            alt="logo"
+           
+            layout="responsive"
+            quality={100}
+            height={'100%'}
+            width={'100%'}
+          />
         </div>
-        <div className=" row-span-2 sm:col-span-2 sm:col-start-7 sm:col-end-9 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Product</p>
+        <p className="mb-4">
+          <strong className="font-medium"> Vệ Sinh Trường Vũ </strong>  
+          là một công ty chuyên cung cấp các dịch vụ vệ sinh chất lượng cao cho các hộ gia đình, doanh nghiệp và cơ quan nhà nước. Chúng tôi có đội ngũ nhân viên được đào tạo bài bản, nhiệt tình và trách nhiệm. Chúng tôi sử dụng các thiết bị hiện đại và các hóa chất an toàn cho sức khỏe và môi trường. Công ty TNHH Dịch Vụ Vệ Sinh Trường Vũ - Đối tác tin cậy của bạn trong lĩnh vực vệ sinh.
+        </p>
+      </div>
+      <Grid container>
+        <Grid item xs={12} md={6} lg={4}>
+          <div className="text-black-600 mb-4 font-medium text-lg">Về Chúng tôi</div>
           <ul className="text-black-500 ">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Download{" "}
+             Tại sao chọn Vệ Sinh Trường Vũ?
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Pricing{" "}
+              Đạo đức kinh doanh
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Locations{" "}
+              Tiêu chí bán hàng
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Server{" "}
+              Cam kết dịch vụ
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Countries{" "}
+              Chính sách bảo hành
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Blog{" "}
+              Phản ánh yêu cầu
+            </li>
+            <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+              Tuyển dụng nhân sự
             </li>
           </ul>
-        </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-9 sm:col-end-11 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Engage</p>
+        </Grid>
+        <Grid item xs={12} md={6} lg={4}>
+          <p className="text-black-600 mb-4 font-medium text-lg">
+            Hỗ trợ khách hàng
+          </p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              LaslesVPN ?{" "}
+               Đánh giá về Vệ Sinh Trường Vũ 
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              FAQ{" "}
+              Mức giảm giá niêm yết
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Tutorials{" "}
+              Hướng dẫn đặt lịch
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              About Us{" "}
+              Chính sách giao nhân
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Privacy Policy{" "}
+              Hướng dẫn thanh toán 
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Terms of Service{" "}
+              Bảo mật thông tin
             </li>
           </ul>
-        </div>
-        <div className="row-span-2 sm:col-span-2 sm:col-start-11 sm:col-end-13 flex flex-col">
-          <p className="text-black-600 mb-4 font-medium text-lg">Earn Money</p>
+        </Grid>
+        <Grid item xs={12} md={6} lg={4}>
+          <p className="text-black-600 mb-4 font-medium text-lg">
+            Kết nối với chúng tôi
+          </p>
           <ul className="text-black-500">
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Affiliate{" "}
+              Điện thoại: 0862669124
             </li>
             <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-              Become Partner{" "}
+              Email: thienpham8817@gmail.com
+            </li>
+            <li>
+              <Grid container justifyContent={"center"}>
+                <div>
+                  {" "}
+                  <div className="flex w-full mt-2 mb-8 -mx-2">
+                    <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+                      <Facebook className="h-6 w-6" />
+                    </div>
+                    <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+                      <Twitter className="h-6 w-6" />
+                    </div>
+                    <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
+                      <Instagram className="h-6 w-6" />
+                    </div>
+                  </div>{" "}
+                </div>
+              </Grid>
             </li>
           </ul>
-        </div>
-      </div>
+        </Grid>
+      </Grid>
     </div>
   );
 };
