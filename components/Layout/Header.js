@@ -36,7 +36,7 @@ const Header = () => {
                 width={500}
               /></div>
             </div>
-          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-700  items-center font-semibold">
+          <ul className="hidden lg:flex col-start-4 col-end-8 text-black-700  items-center font-semibold"   >
           
             <LinkScroll
               activeClass="active"
@@ -53,6 +53,7 @@ const Header = () => {
                   ? " text-orange-500 animation-active "
                   : " text-black-700 hover:text-orange-500 a")
               }
+             
             >
               Giặt Sofa
             </LinkScroll>
