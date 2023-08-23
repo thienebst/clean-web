@@ -28,7 +28,7 @@ const Hero = ({
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="max-w-screen-xl mt-12 px-8 xl:px-16 mx-auto lg:mt-32" id="about">
+    <div className="max-w-screen-xl mt-12 px-8 xl:px-16 mx-auto md:mt-48 lg:mt-32" id="about">
       <Grid container alignItems={"center"} alignContent={"center"} spacing={1}>
         <Grid item className="w-full">
            

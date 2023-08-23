@@ -4,6 +4,7 @@ import BedIcon from "@mui/icons-material/Bed";
 import ChairIcon from "@mui/icons-material/Chair";
 import DirectionsBoatIcon from "@mui/icons-material/DirectionsBoat";
 import DirectionsCarIcon from "@mui/icons-material/DirectionsCar";
+import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import MapIcon from "@mui/icons-material/Map";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -19,61 +20,64 @@ import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
 import PropTypes from "prop-types";
 import * as React from "react";
 const drawerWidth = 240;
 const MENUS = [
   {
+    title: "Trang Chủ",
+    icon: <HomeIcon />,
+    pathName: "/",
+  },
+  {
     title: "Giặt Sofa",
     icon: <ChairIcon />,
+    pathName: "/sofa",
   },
   {
     title: "Giặt Nệm",
+    pathName: "/nem",
     icon: <BedIcon />,
   },
   {
     title: "Giặt Thảm",
+    pathName: "/tham",
     icon: <DirectionsBoatIcon />,
   },
   {
     title: "Giặt Topper",
+    pathName: "/topper",
     icon: <MapIcon />,
   },
   {
     title: "Giặt Ghế Ô Tô",
+    pathName: "/car",
     icon: <DirectionsCarIcon />,
   },
   {
     title: "Giặt Ghế Văn Phòng",
+    pathName: "/office",
     icon: <WeekendIcon />,
   },
-  {
-    title: "Phun Khử Khuẩn",
-    icon: <Battery6BarIcon />,
-  },
-  {
-    title: "Giới Thiệu",
-    icon: <InfoIcon />,
-  },
-  {
-    title: "Liên Hệ",
-    icon: <AddIcCallIcon />,
-  },
+   
 ];
 function ResponsiveDrawer(props) {
   const { window } = props;
+  const router = useRouter();
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
-  const renderTextMenu = (text) => (
-    <p style={{ fontWeight: 600, fontSize: 14 }}>{text}</p>
+  const renderTextMenu = (text, color) => (
+    <p style={{ fontWeight: 600, fontSize: 14, color: color }}>{text}</p>
   );
   const drawer = (
     <div>
       <List>
-        <ListItem key={"ddddd"} disablePadding style={{paddingLeft: 20}}>
+        <ListItem key={"ddddd"} disablePadding style={{ paddingLeft: 20 }}>
           <div className=" grid" style={{ width: 150 }}>
             <Image
               src="/assets/logo-main.png"
@@ -89,10 +93,23 @@ function ResponsiveDrawer(props) {
         <Divider />
         {[...MENUS].map((item, index) => (
           <ListItem key={index} disablePadding style={{ padding: "5px 0" }}>
-            <ListItemButton>
-              <ListItemIcon>{item.icon}</ListItemIcon>
-              <ListItemText primary={renderTextMenu(item.title)} />
-            </ListItemButton>
+            <Link href={item.pathName || ""}>
+              <ListItemButton>
+                <ListItemIcon
+                  style={{
+                    color: item.pathName === router.pathname ? "#FFD700" : "",
+                  }}
+                >
+                  {item.icon}
+                </ListItemIcon>
+                <ListItemText
+                  primary={renderTextMenu(
+                    item.title,
+                    item.pathName === router.pathname ? "#FFD700" : ""
+                  )}
+                />
+              </ListItemButton>
+            </Link>
           </ListItem>
         ))}
       </List>

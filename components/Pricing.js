@@ -13,7 +13,7 @@ const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
   return (
-    <div className="  w-full py-14" id="pricing">
+    <div className="  w-full py-4" id="pricing">
       <div className="max-w-screen-xl  px-6 sm:px-8 lg:px-16 mx-auto flex flex-col w-full text-center justify-center">
         <div className="flex flex-col w-full">
           <ScrollAnimationWrapper>
@@ -381,26 +381,12 @@ const Pricing = () => {
              Chúng tôi sẽ rất vui khi đảm nhận việc thực hiện một dự án ở bất kỳ mức độ phức tạp nào. Chúng tôi đảm bảo chất lượng công việc và có nhiều năm kinh nghiệm trong lĩnh vực vệ sinh.
             </motion.p>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="w-full flex flex-col py-12">
+          <ScrollAnimationWrapper className="w-full flex flex-col">
             <motion.div variants={scrollAnimation}>
               <Testimoni />
             </motion.div>
           </ScrollAnimationWrapper>
-          <ScrollAnimationWrapper className="relative w-full mt-16">
-            <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
-            <div className="  w-full">
-            <p className="text-black-600 mb-4 font-semibold text-xl mt-8 text-center">
-                Thông tin liên hệ
-              </p>
-                  <p className="text-center w-full mb-4">Công TY TNHH THƯƠNG MẠI DỊCH VỤ VỆ SINH TRƯỜNG VŨ</p>
-                </div>
-                <ButtonPrimary>0933.487.304</ButtonPrimary>
-              <div
-                className="absolute bg-black-600 opacity-5 w-11/12 roudned-lg h-60 sm:h-56 top-0 mt-8 mx-auto left-0 right-0"
-                style={{ filter: "blur(114px)" }}
-              ></div>
-            </motion.div>
-          </ScrollAnimationWrapper>
+          
         </div>
       </div>
     </div>
