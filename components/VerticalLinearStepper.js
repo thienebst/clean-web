@@ -10,7 +10,7 @@ import Typography from "@mui/material/Typography";
 
  
 
-export default function VerticalLinearStepper({steps}) {
+export default function VerticalLinearStepper({steps = []}) {
   const [activeStep, setActiveStep] = React.useState(0);
 
   const handleNext = () => {
