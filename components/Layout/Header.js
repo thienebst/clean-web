@@ -21,24 +21,23 @@ const Header = () => {
         }
       > 
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col  ">
-          <div className=" items-center sm:w-36 lg:w-100 flex justify-center relative">
-            <div className="absolute left-0"> 
+        
+        <div  className=" items-center flex justify-center relative">
+          <div className="absolute left-0"> 
               <ResponsiveDrawer/>
             </div>
-            <div className=" grid" style={{width: 150}}>
-              <Image
+               <div style={{width: 250}}><Image
                 src="/assets/logo-main.png"
                 alt="logo"
                 objectFit={'contain'}
                 layout="responsive"
                 quality={100}
-                height={200}
+                height={140}
                 width={500}
-              />
+              /></div>
             </div>
-          </div>
-
           <ul className="hidden lg:flex col-start-4 col-end-8 text-black-700  items-center font-semibold">
+          
             <LinkScroll
               activeClass="active"
               to="about"
