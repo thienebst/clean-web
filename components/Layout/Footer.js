@@ -20,7 +20,7 @@ const Footer = () => {
               objectFit="contain"
               layout="responsive"
               quality={100}
-              height={"100%"}
+              height={"60%"}
               width={"100%"}
             />
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
           <Grid container justifyContent={"left"}>
             <div>
               
-              <p className="text-black-600 mb-4 font-semibold text-lg">
+              <p className="text-black-600 mb-4 font-semibold text-xl mt-8">
                 Về Chúng tôi
               </p>
               <ul className="text-black-500 ">
@@ -107,15 +107,14 @@ const Footer = () => {
               </p>
               <ul className="text-black-500">
                 <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                  Điện thoại: 0862669124
+                  Điện thoại: 0933.487.304
                 </li>
                 <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
-                  Email: thienpham8817@gmail.com
+                  Địa chỉ: 34 Tô ký - Tân Chánh Hiệp - Quân 12
                 </li>
                 <li>
                   <Grid container justifyContent={"center"}>
-                    <div>
-                      {" "}
+                    <div> 
                       <div className="flex w-full mt-2 mb-8  ">
                         <div className="mx-2 bg-white-500 rounded-full items-center justify-center flex p-2 shadow-md">
                           <Facebook className="h-6 w-6" />

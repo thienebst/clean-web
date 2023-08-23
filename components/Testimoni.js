@@ -11,7 +11,7 @@ const Testimoni = ({
   listTestimoni = [
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "/assets/cmm1.jpg",
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -20,7 +20,8 @@ const Testimoni = ({
     },
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "/assets/cmm2.jpg",
+
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -29,7 +30,28 @@ const Testimoni = ({
     },
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "/assets/cmm3.jpg",
+
+      city: "Warsaw",
+      country: "Poland",
+      rating: "4.5",
+      testimoni:
+        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+    },
+    // {
+    //   name: "iezh Robert",
+    //   image: "/assets/cmm4.jpg",
+
+    //   city: "Warsaw",
+    //   country: "Poland",
+    //   rating: "4.5",
+    //   testimoni:
+    //     "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+    // },
+    {
+      name: "iezh Robert",
+      image: "/assets/cmm5.jpg",
+
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -38,7 +60,8 @@ const Testimoni = ({
     },
     {
       name: "iezh Robert",
-      image: "/assets/people-3.png",
+      image: "/assets/cmm6.jpg",
+
       city: "Warsaw",
       country: "Poland",
       rating: "4.5",
@@ -90,9 +113,9 @@ const Testimoni = ({
         className="flex items-stretch justify-items-stretch"
       >
         {listTestimoni.map((listTestimonis, index) => (
-          <div className="px-3 flex items-stretch" key={index}>
-            <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-8 flex flex-col">
-              <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
+          <div className="  flex items-stretch p-1" key={index}>
+            <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-4 flex flex-col">
+              {/* <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                 <div className="flex order-2 xl:order-1">
                   <Image
                     src={listTestimonis.image}
@@ -115,8 +138,15 @@ const Testimoni = ({
                     <Stars className="h-4 w-4" />
                   </span>
                 </div>
-              </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+              </div> */}
+              {/* <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p> */}
+              <Image
+                src={listTestimonis.image}
+                height={400}
+                width={400}
+                objectFit="contain"
+                alt="Icon People"
+              />
             </div>
           </div>
         ))}
