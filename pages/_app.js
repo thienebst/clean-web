@@ -17,8 +17,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
         <ThemeProvider  theme={theme}>
-        <SeoHead title="LaslesVPN Landing Page" />
-      <SiderBarApp />
+        <SeoHead title="Vệ Sinh Trường Vũ" /> 
       <Layout>
         <Component {...pageProps} />
       </Layout>{" "}

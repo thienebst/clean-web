@@ -193,7 +193,7 @@ const Topper = () => {
           className="font-semibold"
           style={{ fontSize: 18, paddingBottom: 10 }}
         >
-          <TitleNumber value={1} /> topper nệm là gì ?{" "}
+          <TitleNumber value={1} /> Topper nệm là gì ?{" "}
         </div>
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
         Topper nệm là một tấm nệm mỏng được đặt trên nệm chính để tăng thêm sự thoải mái, dễ chịu và bảo vệ nệm khỏi bụi bẩn, mồ hôi, dầu mỡ và các tác nhân bên ngoài khác. Topper nệm có thể được làm từ các chất liệu khác nhau như memory foam, cao su, bông, sợi tổng hợp hoặc bông cao su
@@ -202,84 +202,35 @@ const Topper = () => {
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Topper nệm có nhiều lợi ích như làm mềm nệm cứng, giảm áp lực lên cổ, hông, vai và lưng, khử mùi và kháng khuẩn cho nệmh.
         </div>
-        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
-          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
-          Giặt thảm bằng baking soda: Đây là cách dễ thực hiện và có hiệu quả
-          đối với những vết bẩn mới, vết bẩn nhỏ trên thảm văn phòng. Bạn chỉ
-          cần rắc baking soda lên vết bẩn, để từ 20 đến 30 phút rồi hút lại bằng
-          máy hút bụi. Baking soda sẽ giúp khử mùi và hút ẩm trên thảm.
-        </div>
-        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
-          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
-          Giặt thảm bằng máy xịt áp lực: Đây là cách giặt thảm văn phòng hiệu
-          quả cho những loại thảm có kết cấu dày và lông dài. Bạn có thể mua
-          hoặc thuê máy xịt áp lực để sử dụng tại nhà hoặc thuê...
-        </div>
-        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
-          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
-          Giặt thảm bằng máy giặt thảm hơi nước nóng: Đây là cách giặt thảm văn
-          phòng an toàn, tiết kiệm và khử trùng tốt nhất. Bạn có thể mua hoặc
-          thuê máy giặt thảm hơi nước nóng để sử dụng tại nhà hoặc thuê dịch vụ
-          của các công ty chuyên nghiệp.
-        </div>
-        <ImageDes src="/assets/des8.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
-      </div>
-      <div style={{ padding: 15 }}>
         <div
           className="font-semibold"
           style={{ fontSize: 18, paddingBottom: 10 }}
         >
-          <TitleNumber value={2} /> Giặt Thảm Trang Trí{" "}
+          <TitleNumber value={2} /> Các loại  Topper nệm hiện nay:{" "}
         </div>
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
-          Giặt thảm trang trí là một công việc cần thiết để giữ cho thảm luôn
-          sạch sẽ, thơm tho và bảo vệ độ bền của thảm. Thảm trang trí có nhiều
-          loại khác nhau, từ thảm lông xù, thảm len, thảm nylon, đến thảm sợi
-          tổng hợp. Mỗi loại thảm cần có cách giặt phù hợp với chất liệu và mức
-          độ bẩn của thảm. Bạn có thể tự giặt thảm tại nhà hoặc thuê dịch vụ
-          giặt thảm chuyên nghiệp. Dưới đây là một số thông tin về cách giặt
-          thảm trang trí:
-          <br />{" "}
-          <LightbulbCircleIcon
-            style={{ color: "#FFD700", marginRight: 5 }}
-          />{" "}
-          Giặt thảm bằng baking soda: Đây là cách dễ thực hiện và có hiệu quả
-          đối với những vết bẩn mới, vết bẩn nhỏ trên thảm. Bạn chỉ cần rắc
-          baking soda lên vết bẩn, để từ 20 đến 30 phút rồi hút lại bằng máy hút
-          bụi. Baking soda sẽ giúp khử mùi và hút ẩm trên thảm.
-          <br />{" "}
-          <LightbulbCircleIcon
-            style={{ color: "#FFD700", marginRight: 5 }}
-          />{" "}
-          Giặt thảm bằng nước rửa chén và giấm ăn: Đây là cách giặt thảm trang
-          trí phù hợp cho những vết bẩn nhỏ, vết bẩn mới và cứng đầu trên thảm.
-          Bạn chỉ cần pha loãng nước rửa chén và giấm ăn theo tỷ lệ 1:1 trong
-          một xô nước ấm, rồi dùng một miếng vải hoặc bàn chải để lau nhẹ nhàng
-          lên vết bẩn. Sau đó, bạn dùng khăn khô để lau lại cho khô
-          <br />{" "}
+          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
+          Topper nệm cao su nhân tạo: Đây là loại topper được làm từ cao su nhân tạo, có độ đàn hồi vừa phải, độ bền cao và chi phí phải chăng. Topper nệm cao su nhân tạo có thể hỗ trợ cho cột sống và giảm áp lực cho các khớp xương.
         </div>
-
-        <ImageDes
-          src="/assets/des9.jpg"
-          title={"Dịch vụ vệ sinh TP HCM"}
-        />
-      </div>
-      <div style={{ padding: 15 }}>
-        <div
-          className="font-semibold"
-          style={{ fontSize: 18, paddingBottom: 10 }}
-        >
-          <TitleNumber value={2} /> Giặt Thảm Lông{" "}
-        </div>
+        <ImageDes src="/assets/des10.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
-        Giặt thảm lông là một công việc cần thiết để giữ cho thảm luôn sạch sẽ, thơm tho và bảo vệ độ bền của thảm. Thảm lông có nhiều loại khác nhau, từ thảm lông xù, thảm len, thảm nylon, đến thảm sợi tổng hợp. Mỗi loại thảm cần có cách giặt phù hợp với chất liệu và mức độ bẩn của thảm. Bạn có thể tự giặt thảm tại nhà hoặc thuê dịch vụ giặt thảm chuyên nghiệp.  
+          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
+          Topper cao su thiên nhiên: Đây là loại topper được làm từ cao su thiên nhiên, có độ đàn hồi cao, khả năng thoát ẩm và kháng khuẩn tốt. Topper cao su thiên nhiên có thể mang lại cảm giác mềm mại, thoải mái và an toàn cho sức khỏe
         </div>
-
-        <ImageDes
-          src="/assets/des7.jpg"
-          title={"Dịch vụ vệ sinh TP HCM"}
-        />
+        <ImageDes src="/assets/des11.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
+          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
+          Loại topper chần gòn: Đây là loại topper được làm từ gòn tự nhiên hoặc nhân tạo, có độ ấm cao, cảm giác êm ái và dễ chịu. Loại topper chần gòn có thể giúp giữ ấm cho cơ thể trong mùa đông và ngăn ngừa các vấn đề về da do quá khô
+        </div>
+        <ImageDes src="/assets/des12.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
+          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
+          Topper sợi nhân tạo: Đây là loại topper được làm từ sợi nhân tạo như polyester, microfiber hay visco, có độ bền cao, khả năng chống bám bụi và dễ vệ sinh. Topper sợi nhân tạo có thể mang lại cảm giác mịn màng, nhẹ nhàng và thoáng mát
+        </div> 
+        <ImageDes src="/assets/des13.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
       </div>
+    
+      
     </div>
   );
 };

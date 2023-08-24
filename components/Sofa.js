@@ -60,21 +60,21 @@ const rows1 = [
 const steps = [
   {
     label: "Hút sạch bụi ghế sofa",
-    description: `Trước khi giặt ghế sofa, các bạn cần phải dọn dẹp tất cả đệm lót, gối, mảnh đồ chơi, vật dụng,.…có trên sofa. Sau đó, sử dụng máy hút bụi để hút sạch các bụi bẩn trên bề mặt ghế, các khe, ngóc ngách của ghế, để đảm bảo quá trình giặt ghế đạt hiệu quả tốt nhất`,
+    description: `Dọn rác và hút bụi trên ghế sofa bằng máy hút có đính kèm vải bọc`,
   },
   {
     label: "Làm sạch các điểm bẩn",
     description:
-      "Sẽ có một số vết bẩn cần được làm sạch trước khi bắt đầu giặt ghế sofa bằng máy hơi nước nóng để đảm bảo hiệu quả giặt tốt hơn. Tùy vào tính chất của các vết bẩn mà sử dụng các loại hợp chất chuyên dụng riêng biệt. ",
+      "Tẩy điểm các vết bẩn cứng đầu bằng hóa chất tẩy rửa chuyên dụnghoặc dung dịch vệ sinh ghế sofa",
   },
   {
     label: "Kiểm tra chất liệu sofa có phù hợp với giặt bằng hơi nước nóng",
-    description: `Một điều các bạn cần phải nắm kỹ là chất liệu vải bọc của ghế sofa được làm bằng chất liệu gì ? Chất liệu vải đó có thích hợp với cách giặt bằng hơi nước nóng hay không? Phải kiểm tra xem khi bị tác động bởi nhiệt độ cao và áp suất lớn, chất liệu vải có bị co rút, loang màu, bị nổ hay mất màu hay không`,
+    description: `Chà sạch vết bẩn bằng bàn chải kết hợp hơi nước nóng. Sử dụng máy phun hút hơi nước nóng để phun hơi nước có nhiệt độ cao lên các vết bẩn trên ghế`,
   },
   {
     label: "Dùng máy hơi nước nóng",
     description:
-      "Các bạn bắt đầu giặt ghế sofa bằng máy hơi nước nóng, sau khi hoàn tất xong các bước trên. Dưới tác động của áp suất cao, hơi nước nóng lên lỏi vào các sợi vải và được làm sạch nhanh chóng. Đồng thời, dưới tác động của nhiệt độ cao sẽ giúp tiêu diệt vi khuẩn, các vi sinh vật, mùi, nấm, mốc trong các ngóc ngách của ghế sofa. Đảm bảo loại bỏ các vết bẩn cứng đầu nhất, trả lại vẻ sạch - tươi - đẹp như mới cho ghế sofa.",
+      "Các bạn bắt đầu giặt ghế sofa bằng máy hơi nước nóng, sau khi hoàn tất xong các bước trên. Dưới tác động của áp suất cao, hơi nước nóng lên lỏi vào các sợi vải và được làm sạch nhanh chóng. Đồng thời, dưới tác động của nhiệt độ cao sẽ giúp tiêu diệt vi khuẩn, các vi sinh vật, mùi, nấm, mốc trong các ngóc ngách của ghế sofa.",
   },
   {
     label: "Dùng nước xả vải cho ghế sofa",
@@ -84,13 +84,16 @@ const steps = [
   {
     label: "Dùng máy sấy sấy ghế sofa",
     description:
-      "Sau quá trình giặt ghế xong, để làm khô ghế sofa, các bạn có thể sử dụng máy sấy hoặc để khô tự nhiên. Các bạn mang ghế sofa ra nơi thoáng mát để ghế được khô một cách tự nhiên hoặc sử dụng quạt để hong khô ghế. Không nên đặt ghế sofa dưới ánh nắng mặt trời trực tiếp, nó sẽ làm ảnh hưởng đến chất lượng và tuổi thọ của ghế. ",
+      "Sau quá trình giặt ghế xong, để làm khô ghế sofa, các bạn có thể sử dụng máy sấy hoặc để khô tự nhiên. Các bạn mang ghế sofa ra nơi thoáng mát để ghế được khô một cách tự nhiên hoặc sử dụng quạt để hong khô ghế. ",
   },
 ];
 const Sofa = () => {
   return (
     <div className="mt-12">
-      <h1 className="text-black-600 mb-4 font-semibold text-xl mt-8 text-center px-4" style={{fontSize: '22px !important'}}>
+      <h1
+        className="text-black-600 mb-4 font-semibold text-xl mt-8 text-center px-4"
+        style={{ fontSize: "22px !important" }}
+      >
         Giặt Ghế Sofa Tại Nhà - 30 Phút Có Mặt & Giá Tốt TP HCM
       </h1>
       <p
@@ -99,8 +102,8 @@ const Sofa = () => {
       >
         BẢNG BÁO GIÁ GIẶT GHẾ SOFA VẢI
       </p>
-      <TableContainer component={Paper} style={{ padding: 16}}>
-        <Table aria-label="simple table" style={{border: 'solid 1px blue' }} >
+      <TableContainer component={Paper} style={{ padding: 16 }}>
+        <Table aria-label="simple table" style={{ border: "solid 1px blue" }}>
           <TableHead>
             <TableRow>
               <TableCell
@@ -217,7 +220,7 @@ const Sofa = () => {
         BẢNG BÁO GIÁ GIẶT GHẾ SOFA DA
       </p>
       <TableContainer component={Paper} style={{ padding: 16 }}>
-        <Table aria-label="simple table" style={{border: 'solid 1px blue' }} >
+        <Table aria-label="simple table" style={{ border: "solid 1px blue" }}>
           <TableHead>
             <TableRow>
               <TableCell
@@ -343,21 +346,29 @@ const Sofa = () => {
           <TitleNumber value={1} /> Giặt Ghế Sofa Vải{" "}
         </div>
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
-          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
+          
           Giặt ghế sofa vải là một công việc quan trọng để giữ cho ghế sofa luôn
           sạch sẽ, đẹp mắt và bền lâu. Tuy nhiên, không phải ai cũng biết cách
           giặt ghế sofa vải đúng cách và hiệu quả. Trong bài viết này, tôi sẽ
           giới thiệu cho bạn một số cách giặt ghế sofa vải tại nhà mà bạn có thể
           thực hiện dễ dàng và nhanh chóng.
         </div>
+        <ImageDes
+          src="/assets/des24.jpg"
+          title={"Dịch vụ giặt ghế sofa TP HCM"}
+        />
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
-          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
+          
           Cách giặt ghế sofa vải tùy thuộc vào chất liệu và ký hiệu trên nhãn
           mác của ghế. Bạn nên đọc kỹ hướng dẫn của nhà sản xuất trước khi tiến
           hành giặt ghế. Một số ký hiệu thường gặp là:
-          <br /> • W: có nghĩa là bạn có thể sử dụng nước để làm sạch ghế sofa
+          <br />
+          <br />
+           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} /> W: có nghĩa là bạn có thể sử dụng nước để làm sạch ghế sofa
           vải.
-          <br /> • S: có nghĩa là bạn chỉ có thể sử dụng dung môi hoặc các sản
+          <br />
+          <br />
+           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} /> S: có nghĩa là bạn chỉ có thể sử dụng dung môi hoặc các sản
           phẩm không chứa nước để làm sạch ghế. <br />• WS hoặc SW: có nghĩa là
           bạn có thể sử dụng bất kỳ phương pháp nào, có thể là giặt nước hoặc
           giặt khô.
@@ -379,22 +390,25 @@ const Sofa = () => {
           da thật từ động vật hoặc da công nghiệp như da PU, da microfiber, da
           simili. Ghế sofa da có nhiều ưu điểm như:
           <br />{" "}
+          <br />
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Mang lại vẻ sang trọng, đẳng cấp và ấm cúng cho không gian nội thất
-          <br />{" "}
-          <LightbulbCircleIcon
-            style={{ color: "#FFD700", marginRight: 5 }}
-          />{" "}
+          <ImageDes
+            src="/assets/des25.jpg"
+            title={"Dịch vụ giặt ghế sofa TP HCM"}
+          />
+          <br />{" "}<br />
+          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />{" "}
           Dễ dàng lau chùi, vệ sinh và bảo quản, không bị ẩm mốc hay bị phai màu
           theo thời gian.
-          <br />{" "}
+          <br />{" "}<br />
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Có độ bền cao, không bị xù lông hay rách nát như các loại vải khác
-          <br />{" "}
+          <br />{" "}<br />
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
@@ -418,24 +432,26 @@ const Sofa = () => {
           Ghế sofa nhung là một loại ghế có bọc ngoài bằng chất liệu nhung, một
           loại vải có bề mặt mềm mịn và lông dày. Ghế sofa nhung có nhiều ưu
           điểm như:
-          <br />{" "}
+          <br />{" "}<br />
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Mang lại cảm giác sang trọng, ấm cúng và thoải mái cho không gian nội
           thất.
-          <br />{" "}
-          <LightbulbCircleIcon
-            style={{ color: "#FFD700", marginRight: 5 }}
-          />{" "}
+          <ImageDes
+            src="/assets/des26.jpg"
+            title={"Dịch vụ giặt ghế sofa TP HCM"}
+          />
+          <br />{" "}<br />
+          <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />{" "}
           Có độ bền cao, không bị xù lông hay phai màu theo thời gian.
-          <br />{" "}
+          <br />{" "}<br />
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Có nhiều màu sắc và họa tiết đa dạng, phù hợp với nhiều phong cách
           trang trí khác nhau.
-          <br />{" "}
+          <br />{" "}<br />
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}

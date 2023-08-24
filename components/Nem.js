@@ -202,19 +202,20 @@ const Nem = () => {
           sẽ, thoáng mát và bền lâu. Nệm cao su là một loại nệm có bọc ngoài
           bằng chất liệu cao su, có thể là cao su tự nhiên hoặc cao su nhân tạo.
           Nệm cao su có nhiều ưu điểm như:
-        </div>
+        </div> <br />{" "}
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có độ đàn hồi cao, ôm sát cơ thể và hỗ trợ tốt cho xương khớp.
         </div>
+        <ImageDes src="/assets/des26.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có khả năng thông thoáng, chống ẩm mốc và chống bụi bẩn.
-        </div>
+        </div> <br />{" "}
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có khả năng kháng khuẩn, chống dị ứng và chống viêm da.
-        </div>
+        </div> <br />{" "}
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có độ bền cao, không bị biến dạng hay xẹp lún theo thời gian.
@@ -234,7 +235,9 @@ const Nem = () => {
           việc đơn giản, vì nệm lò xo có kích thước lớn, cồng kềnh và chứa nhiều
           bụi bẩn, vi khuẩn, nấm mốc. Để giặt nệm lò xo hiệu quả, bạn cần thực
           hiện theo các bước sau:
+          <ImageDes src="/assets/des27.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
           <br />{" "}
+          
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
@@ -242,13 +245,13 @@ const Nem = () => {
           nệm lò xo bằng máy giặt hoặc tay như giặt quần áo thông thường. Bạn
           nên ngâm vỏ bọc nệm trong nước ấm có pha loãng bột giặt để loại bỏ bụi
           bẩn và khử khuẩn
-          <br />{" "}
+          <br />{" "} <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Sử dụng máy hút bụi chuyên dụng để hút sạch các bụi bẩn ra khỏi các lỗ
           trên bề mặt nệm.
-          <br />{" "}
+          <br />{" "} <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
@@ -256,6 +259,7 @@ const Nem = () => {
           trong dung dịch nước và xà phòng hoặc nước giặt để lau nhẹ nhàng trên
           toàn bộ mặt nệm. Bạn cũng có thể sử dụng máy xịt áp lực để xịt sạch
           các chất bẩn trên nệm.
+          <ImageDes src="/assets/des28.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
           <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
@@ -282,32 +286,32 @@ const Nem = () => {
           không nên giặt nệm Kymdan bằng phương pháp thông thường, vì sẽ ảnh
           hưởng đến bề mặt và chất lượng của nệm. Bạn chỉ nên giặt khô bằng các
           bước sau:
-          <br />{" "}
+          <br />{" "} <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Tháo vỏ bọc nệm và giặt cùng với chăn gối bằng máy giặt hoặc tay.
-          <br />{" "}
+          <br />{" "} <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Làm sạch các vết bẩn trên nệm bằng cách dùng khăn ẩm đã ngâm trong
           dung dịch nước và xà phòng hoặc nước giặt để lau nhẹ nhàng. Không sử
           dụng chất tẩy mạnh hay dung môi để làm sạch vết bẩn.
-          <br />{" "}
+          <br />{" "} <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Rắc baking soda lên bề mặt nệm để khử mùi và hút ẩm. Để trong khoảng
           15 phút rồi hút lại bằng máy hút bụi.
-          <br />{" "}
+          <br />{" "} <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}
           Phơi nệm ở nơi thoáng mát, tránh ánh nắng trực tiếp để không làm hư
           hại cấu trúc lò xo. Đảo ngược mặt nệm để đảm bảo cả hai mặt đều được
           khô ráo.
-          <br />{" "}
+          <br />{" "} <br />{" "}
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}

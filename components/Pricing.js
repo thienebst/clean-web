@@ -8,6 +8,7 @@ import { motion } from "framer-motion";
 import getScrollAnimation from "../utils/getScrollAnimation";
 import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 import { Grid } from "@mui/material";
+import Link from "next/link";
 
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
@@ -75,7 +76,9 @@ const Pricing = () => {
                     >
                       Chỉ từ 250k
                     </p>
-                    <ButtonOutline>Liên hệ</ButtonOutline>
+                    <ButtonOutline>
+                      <Link href={"/sofa"}>Xem ngay</Link>
+                    </ButtonOutline>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>
@@ -124,7 +127,9 @@ const Pricing = () => {
                     >
                       Chỉ từ 250k
                     </p>
-                    <ButtonOutline>Liên hệ</ButtonOutline>
+                    <ButtonOutline>
+                      <Link href={"/nem"}>Xem ngay</Link>
+                    </ButtonOutline>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>
@@ -176,7 +181,7 @@ const Pricing = () => {
                     >
                       Chỉ từ 5m/m2
                     </p>
-                    <ButtonOutline>Liên hệ</ButtonOutline>
+                    <ButtonOutline><Link href={"/tham"}>Xem ngay</Link></ButtonOutline>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>
@@ -225,7 +230,7 @@ const Pricing = () => {
                     >
                       Chỉ từ 250k
                     </p>
-                    <ButtonOutline>Liên hệ</ButtonOutline>
+                    <ButtonOutline><Link href={"/topper"}>Xem ngay</Link></ButtonOutline>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>
@@ -277,7 +282,7 @@ const Pricing = () => {
                     >
                       Chỉ từ 400k
                     </p>
-                    <ButtonOutline>Liên hệ</ButtonOutline>
+                    <ButtonOutline><Link href={"/car"}>Xem ngay</Link></ButtonOutline>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>
@@ -326,60 +331,12 @@ const Pricing = () => {
                     >
                       Chỉ từ 25k/cái
                     </p>
-                    <ButtonOutline>Liên hệ</ButtonOutline>
+                    <ButtonOutline><Link href={"/office"}>Xem ngay</Link></ButtonOutline>
                   </div>
                 </motion.div>
               </ScrollAnimationWrapper>
             </Grid>
-            <Grid item className="w-full" xs={12} md={6} lg={4}>
-              <ScrollAnimationWrapper>
-                <motion.div
-                  variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl   px-6 lg:px-12 xl:px-20"
-                  whileHover={{
-                    scale: 1.1,
-                    transition: {
-                      duration: 0.2,
-                    },
-                  }}
-                >
-                  <div className="p-4 lg:p-0 mt-6 lg:mt-16">
-                    <Image
-                      src="/assets/phun.jpg"
-                      width={250}
-                      height={165}
-                      alt="Free Plan"
-                    />
-                  </div>
-                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
-                    Phun khử khuẩn
-                  </p>
-                  <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
-                    <li className="relative check custom-list my-2">
-                      Phun khử trùng
-                    </li>
-                    <li className="relative check custom-list my-2">
-                      Phun khử khuẩn
-                    </li>
-                    <li className="relative check custom-list my-2">
-                      Phun diệt trùng
-                    </li>
-                    <li className="relative check custom-list my-2">
-                      Phun diệt khuẩn
-                    </li>
-                  </ul>
-                  <div className="flex flex-col w-full justify-center mb-6 flex-none mt-2">
-                    <p
-                      className="text-2xl text-black-600 text-center mb-4 "
-                      style={{ color: "red" }}
-                    >
-                      Chỉ từ 5k/500m2
-                    </p>
-                    <ButtonOutline>Liên hệ</ButtonOutline>
-                  </div>
-                </motion.div>
-              </ScrollAnimationWrapper>
-            </Grid>
+          
           </Grid>
         </div>
         <div className="flex flex-col w-full "></div>
