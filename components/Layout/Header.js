@@ -19,6 +19,7 @@ const Header = () => {
           "fixed top-0 w-full  z-30 bg-white-500 transition-all " +
           (scrollActive ? " shadow-md pt-0" : " pt-0")
         }
+        
       > 
         <nav className="max-w-screen-xl px-6 sm:px-8 lg:px-16 mx-auto grid grid-flow-col  ">
           <div className=" items-center sm:w-36 lg:w-100 flex justify-center relative">
@@ -54,6 +55,7 @@ const Header = () => {
                   ? " text-orange-500 animation-active "
                   : " text-black-700 hover:text-orange-500 a")
               }
+               
             >
               Giặt Sofa
             </LinkScroll>

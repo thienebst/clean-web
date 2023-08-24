@@ -24,6 +24,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import PropTypes from "prop-types";
 import * as React from "react";
+import { useEffect } from "react";
 const drawerWidth = 240;
 const MENUS = [
   {
@@ -71,13 +72,16 @@ function ResponsiveDrawer(props) {
   const handleDrawerToggle = () => {
     setMobileOpen(!mobileOpen);
   };
+  useEffect(()=>{
+    setMobileOpen(false);
+  },[router])
   const renderTextMenu = (text, color) => (
-    <p style={{ fontWeight: 600, fontSize: 14, color: color }}>{text}</p>
+    <p style={{ fontWeight: 'bolder', fontSize: 15, color: '#111' }}>{text}</p>
   );
   const drawer = (
     <div>
-      <List>
-        <ListItem key={"ddddd"} disablePadding style={{ paddingLeft: 20 }}>
+      <List style={{padding: 0}}>
+        <ListItem key={"ddddd"} disablePadding style={{ paddingLeft: 2, backgroundColor: 'white' }}>
           <div className=" grid" style={{ width: 150 }}>
             <Image
               src="/assets/logo-main.png"
@@ -95,10 +99,7 @@ function ResponsiveDrawer(props) {
           <ListItem key={index} disablePadding style={{ padding: "5px 0" }}>
             <Link href={item.pathName || ""}>
               <ListItemButton>
-                <ListItemIcon
-                  style={{
-                    color: item.pathName === router.pathname ? "#FFD700" : "",
-                  }}
+                <ListItemIcon 
                 >
                   {item.icon}
                 </ListItemIcon>
@@ -120,7 +121,7 @@ function ResponsiveDrawer(props) {
     window !== undefined ? () => window().document.body : undefined;
 
   return (
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex"}}>
       <CssBaseline />
       <IconButton
         color="inherit"
@@ -151,7 +152,9 @@ function ResponsiveDrawer(props) {
               boxSizing: "border-box",
               width: drawerWidth,
             },
+            
           }}
+           PaperProps={{style:{backgroundColor: 'rgba(252, 252, 252, 0.9)'}}}
         >
           {drawer}
         </Drawer>
