@@ -69,8 +69,8 @@ const Office = () => {
       >
         BẢNG BÁO GIÁ GIẶT GHẾ SOFA VẢI
       </p>
-      <TableContainer component={Paper} style={{ padding: 10 }}>
-        <Table aria-label="simple table">
+      <TableContainer component={Paper} style={{ padding: 20 }}>
+        <Table aria-label="simple table" style={{border: 'solid 1px blue' }}>
           <TableHead>
             <TableRow>
               <TableCell
@@ -78,7 +78,7 @@ const Office = () => {
                   maxWidth: 50,
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                 }}
                 className="font-semibold"
               >
@@ -90,7 +90,7 @@ const Office = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -102,7 +102,7 @@ const Office = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -114,7 +114,7 @@ const Office = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -134,7 +134,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -145,7 +145,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -156,7 +156,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -167,7 +167,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -186,8 +186,8 @@ const Office = () => {
       >
         BẢNG BÁO GIÁ GIẶT GHẾ SOFA DA
       </p>
-      <TableContainer component={Paper} style={{ padding: 10 }}>
-        <Table aria-label="simple table">
+      <TableContainer component={Paper} style={{ padding: 20 }}>
+        <Table aria-label="simple table" style={{border: 'solid 1px blue' }}>
           <TableHead>
             <TableRow>
               <TableCell
@@ -195,7 +195,7 @@ const Office = () => {
                   maxWidth: 50,
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
                 className="font-semibold"
@@ -208,7 +208,7 @@ const Office = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -220,7 +220,7 @@ const Office = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -232,7 +232,7 @@ const Office = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                 }}
               >
                 BỘ LỚN
@@ -251,7 +251,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -262,7 +262,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -273,7 +273,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                     minWidth: 100,
                   }}
@@ -285,7 +285,7 @@ const Office = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                     minWidth: 100,
                   }}
@@ -308,11 +308,11 @@ const Office = () => {
       <div style={{ padding: 15 }}>
         <div
           className="font-semibold"
-          style={{ fontSize: 20, paddingBottom: 10 }}
+          style={{ fontSize: 18, paddingBottom: 10 }}
         >
           <TitleNumber value={1} /> Giặt Ghế Sofa Vải{" "}
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Giặt ghế sofa vải là một công việc quan trọng để giữ cho ghế sofa luôn
           sạch sẽ, đẹp mắt và bền lâu. Tuy nhiên, không phải ai cũng biết cách
@@ -320,7 +320,7 @@ const Office = () => {
           giới thiệu cho bạn một số cách giặt ghế sofa vải tại nhà mà bạn có thể
           thực hiện dễ dàng và nhanh chóng.
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Cách giặt ghế sofa vải tùy thuộc vào chất liệu và ký hiệu trên nhãn
           mác của ghế. Bạn nên đọc kỹ hướng dẫn của nhà sản xuất trước khi tiến
@@ -340,11 +340,11 @@ const Office = () => {
       <div style={{ padding: 15 }}>
         <div
           className="font-semibold"
-          style={{ fontSize: 20, paddingBottom: 10 }}
+          style={{ fontSize: 18, paddingBottom: 10 }}
         >
           <TitleNumber value={2} /> Giặt Ghế Sofa Da{" "}
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
            
           Ghế sofa da là một loại ghế có bọc ngoài bằng chất liệu da, có thể là da thật từ động vật hoặc da công nghiệp như da PU, da microfiber, da simili. Ghế sofa da có nhiều ưu điểm như:
           <br/> <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }}/>  Mang lại vẻ sang trọng, đẳng cấp và ấm cúng cho không gian nội thất
@@ -361,11 +361,11 @@ const Office = () => {
       <div style={{ padding: 15 }}>
         <div
           className="font-semibold"
-          style={{ fontSize: 20, paddingBottom: 10 }}
+          style={{ fontSize: 18, paddingBottom: 10 }}
         >
           <TitleNumber value={2} /> Giặt Ghế Sofa Nhung{" "}
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
            
         Ghế sofa nhung là một loại ghế có bọc ngoài bằng chất liệu nhung, một loại vải có bề mặt mềm mịn và lông dày. Ghế sofa nhung có nhiều ưu điểm như:
           <br/> <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }}/>  Mang lại cảm giác sang trọng, ấm cúng và thoải mái cho không gian nội thất.

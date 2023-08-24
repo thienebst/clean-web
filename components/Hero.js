@@ -39,14 +39,14 @@ const Hero = ({
             layout="responsive"
           /></div>
           <div   className="h-52 md:h-96"></div>
-          <div   className="  md:h-20"></div>
+          <div   className="md:h-48"></div>
       <Grid container alignItems={"center"} alignContent={"center"} spacing={1}>
       
         <Grid item className="w-full">
            
-          <h1 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-black-600 leading-normal text-center" style={{color: 'red'}}>
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-black-600 leading-normal text-center" style={{color: 'red', fontSize: 18}}>
             DỊCH VỤ GIẶT GHẾ SOFA TẠI NHÀ Ở TP.HCM
-          </h1>
+          </h2>
         </Grid>
         <Grid item className="w-full">
           <p className="font-semibold  mt-4 mb-6 text-center">

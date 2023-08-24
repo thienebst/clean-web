@@ -29,38 +29,38 @@ const drawerWidth = 240;
 const MENUS = [
   {
     title: "Trang Chủ",
-    icon: <HomeIcon />,
+    icon: <HomeIcon fontSize="10px"/>,
     pathName: "/",
   },
   {
     title: "Giặt Sofa",
-    icon: <ChairIcon />,
+    icon: <ChairIcon fontSize="10px"/>,
     pathName: "/sofa",
   },
   {
     title: "Giặt Nệm",
     pathName: "/nem",
-    icon: <BedIcon />,
+    icon: <BedIcon fontSize="10px"/>,
   },
   {
     title: "Giặt Thảm",
     pathName: "/tham",
-    icon: <DirectionsBoatIcon />,
+    icon: <DirectionsBoatIcon fontSize="10px"/>,
   },
   {
     title: "Giặt Topper",
     pathName: "/topper",
-    icon: <MapIcon />,
+    icon: <MapIcon fontSize="10px"/>,
   },
   {
     title: "Giặt Ghế Ô Tô",
     pathName: "/car",
-    icon: <DirectionsCarIcon />,
+    icon: <DirectionsCarIcon fontSize="10px"/>,
   },
   {
     title: "Giặt Ghế Văn Phòng",
     pathName: "/office",
-    icon: <WeekendIcon />,
+    icon: <WeekendIcon fontSize="10px"/>,
   },
    
 ];
@@ -76,7 +76,7 @@ function ResponsiveDrawer(props) {
     setMobileOpen(false);
   },[router])
   const renderTextMenu = (text, color) => (
-    <p style={{ fontWeight: 'bolder', fontSize: 15, color: '#111' }}>{text}</p>
+    <p style={{ fontWeight: 600, fontSize: 13, color: '#111' }}>{text}</p>
   );
   const drawer = (
     <div>
@@ -99,7 +99,7 @@ function ResponsiveDrawer(props) {
           <ListItem key={index} disablePadding style={{ padding: "5px 0" }}>
             <Link href={item.pathName || ""}>
               <ListItemButton>
-                <ListItemIcon 
+                <ListItemIcon  
                 >
                   {item.icon}
                 </ListItemIcon>
@@ -113,6 +113,10 @@ function ResponsiveDrawer(props) {
             </Link>
           </ListItem>
         ))}
+         <ListItem key={"ddddd"} disablePadding style={{ paddingLeft: 2 }}>
+          <div className=" grid" style={{ width: 150, height: 300 }}> 
+          </div>
+        </ListItem>
       </List>
     </div>
   );
@@ -130,11 +134,11 @@ function ResponsiveDrawer(props) {
         
         onClick={handleDrawerToggle}
         sx={{ mr: 2, display: { sm: "none" }, borderRadius: 1 }}
-        size="medium"
-        style={{backgroundColor: "green", color: "white"}}
+        size="small"
+        style={{backgroundColor: "green", color: "white" }}
      
       >
-        <MenuIcon />
+        <MenuIcon fontSize="12px"/>
       </IconButton>
       <Box
         component="nav"

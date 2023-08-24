@@ -31,10 +31,10 @@ export default function VerticalLinearStepper({steps = []}) {
         {steps.map((step, index) => (
           <Step key={step.label} active={true}>
             <StepLabel>
-              <div className="font-semibold" style={{fontSize: 20}}>{step.label}</div>
+              <div className="font-semibold" style={{fontSize: 18}}>{step.label}</div>
             </StepLabel>
             <StepContent>
-              <div style={{fontSize: 20 , textAlign: 'justify'}}>{step.description}</div>
+              <div style={{fontSize: 18 , textAlign: 'justify'}}>{step.description}</div>
               <Box sx={{ mb: 2 }}></Box>
             </StepContent>
           </Step>

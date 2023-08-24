@@ -63,8 +63,8 @@ const steps = [
 const Nem = () => {
   return (
     <div className="mt-12">
-      <p className="text-black-600 mb-4 font-semibold text-xl mt-8 text-center">
-        Giặt Nệm
+      <p className="text-black-600 mb-4 font-semibold text-xl mt-8 text-center px-10">
+      Giặt Nệm Tại Nhà - 30 Phút Có Mặt & Giá Tốt TP HCM
       </p>
       <p
         className="text-black-600 mb-4 font-semibold text-lg mt-8 text-center "
@@ -72,8 +72,8 @@ const Nem = () => {
       >
         BẢNG BÁO GIÁ GIẶT NỆM TẠI NHÀ
       </p>
-      <TableContainer component={Paper} style={{ padding: 10 }}>
-        <Table aria-label="simple table">
+      <TableContainer component={Paper} style={{ padding: 20 }}>
+        <Table aria-label="simple table" style={{border: 'solid 1px blue' }}>
           <TableHead>
             <TableRow>
               <TableCell
@@ -81,7 +81,7 @@ const Nem = () => {
                   maxWidth: 50,
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                 }}
                 className="font-semibold"
               >
@@ -93,7 +93,7 @@ const Nem = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -105,7 +105,7 @@ const Nem = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -117,7 +117,7 @@ const Nem = () => {
                 style={{
                   backgroundColor: "#0d47a1",
                   color: "white",
-                  padding: "15px 10px",
+                  padding: "7px 7px",
                   textAlign: "center",
                 }}
               >
@@ -137,7 +137,7 @@ const Nem = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -148,7 +148,7 @@ const Nem = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -159,7 +159,7 @@ const Nem = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -170,7 +170,7 @@ const Nem = () => {
                   className="font-semibold"
                   style={{
                     backgroundColor: index % 2 !== 0 ? "#FFD700" : "",
-                    padding: "15px 10px",
+                    padding: "7px 7px",
                     textAlign: "center",
                   }}
                 >
@@ -193,29 +193,29 @@ const Nem = () => {
       <div style={{ padding: 15 }}>
         <div
           className="font-semibold"
-          style={{ fontSize: 20, paddingBottom: 10 }}
+          style={{ fontSize: 18, paddingBottom: 10 }}
         >
           <TitleNumber value={1} /> Giặt Nệm Cao Su{" "}
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           Giặt nệm cao su là một công việc quan trọng để giữ cho nệm luôn sạch
           sẽ, thoáng mát và bền lâu. Nệm cao su là một loại nệm có bọc ngoài
           bằng chất liệu cao su, có thể là cao su tự nhiên hoặc cao su nhân tạo.
           Nệm cao su có nhiều ưu điểm như:
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có độ đàn hồi cao, ôm sát cơ thể và hỗ trợ tốt cho xương khớp.
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có khả năng thông thoáng, chống ẩm mốc và chống bụi bẩn.
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có khả năng kháng khuẩn, chống dị ứng và chống viêm da.
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có độ bền cao, không bị biến dạng hay xẹp lún theo thời gian.
         </div>
@@ -224,11 +224,11 @@ const Nem = () => {
       <div style={{ padding: 15 }}>
         <div
           className="font-semibold"
-          style={{ fontSize: 20, paddingBottom: 10 }}
+          style={{ fontSize: 18, paddingBottom: 10 }}
         >
           <TitleNumber value={2} /> Giặt Nệm Lò Xo{" "}
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           Giặt nệm lò xo là một công việc quan trọng để duy trì vệ sinh và sức
           khỏe cho bạn và gia đình. Tuy nhiên, giặt nệm lò xo không phải là một
           việc đơn giản, vì nệm lò xo có kích thước lớn, cồng kềnh và chứa nhiều
@@ -273,11 +273,11 @@ const Nem = () => {
       <div style={{ padding: 15 }}>
         <div
           className="font-semibold"
-          style={{ fontSize: 20, paddingBottom: 10 }}
+          style={{ fontSize: 18, paddingBottom: 10 }}
         >
           <TitleNumber value={2} /> Giặt Nệm Kymdan{" "}
         </div>
-        <div style={{ fontSize: 20, marginTop: 10, textAlign: "justify" }}>
+        <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           Cách giặt nệm Kymdan tại nhà: Theo khuyến cáo của nhà sản xuất, bạn
           không nên giặt nệm Kymdan bằng phương pháp thông thường, vì sẽ ảnh
           hưởng đến bề mặt và chất lượng của nệm. Bạn chỉ nên giặt khô bằng các
