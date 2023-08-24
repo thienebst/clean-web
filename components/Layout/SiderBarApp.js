@@ -127,10 +127,14 @@ function ResponsiveDrawer(props) {
         color="inherit"
         aria-label="open drawer"
         edge="start"
+        
         onClick={handleDrawerToggle}
-        sx={{ mr: 2, display: { sm: "none" } }}
+        sx={{ mr: 2, display: { sm: "none" }, borderRadius: 1 }}
+        size="medium"
+        style={{backgroundColor: "green", color: "white"}}
+     
       >
-        <MenuIcon color="success" />
+        <MenuIcon />
       </IconButton>
       <Box
         component="nav"
