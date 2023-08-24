@@ -81,9 +81,9 @@ function ResponsiveDrawer(props) {
   const drawer = (
     <div>
       <List style={{padding: 0}}>
-        <ListItem key={"ddddd"} disablePadding style={{ paddingLeft: 2, backgroundColor: 'white' }}>
-          <div className=" grid" style={{ width: 150 }}>
-            <Image
+        <ListItem key={"ddddd"} disablePadding style={{ paddingLeft: 2 }}>
+          <div className=" grid" style={{ width: 150, height: 60 }}>
+            {/* <Image
               src="/assets/logo-main.png"
               alt="logo"
               objectFit={"contain"}
@@ -91,7 +91,7 @@ function ResponsiveDrawer(props) {
               quality={100}
               height={200}
               width={500}
-            />
+            /> */}
           </div>
         </ListItem>
         <Divider />

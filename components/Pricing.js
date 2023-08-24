@@ -35,7 +35,7 @@ const Pricing = () => {
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4   lg:px-12 xl:px-20"
                   whileHover={{
                     scale: 1.1,
                     transition: {
@@ -43,7 +43,7 @@ const Pricing = () => {
                     },
                   }}
                 >
-                  <div className="p-4 lg:p-0 mt-6 lg:mt-16">
+                  <div className="  lg:p-0   lg:mt-16">
                     <Image
                       src="/assets/sofa.jpg"
                       width={200}
@@ -51,7 +51,7 @@ const Pricing = () => {
                       alt="Free Plan"
                     />
                   </div>
-                  <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
                     Vệ sinh Sofa
                   </p>
                   <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -68,8 +68,11 @@ const Pricing = () => {
                       Giặt sofa ngoại cỡ
                     </li>
                   </ul>
-                  <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <div className="flex flex-col w-full justify-center mb-2 flex-none mt-2 px-2">
+                    <p
+                      className="text-2xl text-black-600 text-center mb-4 "
+                      style={{ color: "red" }}
+                    >
                       Chỉ từ 250k
                     </p>
                     <ButtonOutline>Liên hệ</ButtonOutline>
@@ -81,7 +84,7 @@ const Pricing = () => {
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl   px-6 lg:px-12 xl:px-20"
                   whileHover={{
                     scale: 1.1,
                     transition: {
@@ -97,7 +100,7 @@ const Pricing = () => {
                       alt="Free Plan"
                     />
                   </div>
-                  <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
                     Vệ sinh Nệm
                   </p>
                   <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -114,8 +117,11 @@ const Pricing = () => {
                       Giặt nêm bông ép
                     </li>
                   </ul>
-                  <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <div className="flex flex-col w-full justify-center mb-6 flex-none mt-2">
+                    <p
+                      className="text-2xl text-black-600 text-center mb-4 "
+                      style={{ color: "red" }}
+                    >
                       Chỉ từ 250k
                     </p>
                     <ButtonOutline>Liên hệ</ButtonOutline>
@@ -127,7 +133,7 @@ const Pricing = () => {
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl   px-6 lg:px-12 xl:px-20"
                   whileHover={{
                     scale: 1.1,
                     transition: {
@@ -143,7 +149,7 @@ const Pricing = () => {
                       alt="Free Plan"
                     />
                   </div>
-                  <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
                     Vệ sinh Thảm
                   </p>
                   <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -163,8 +169,11 @@ const Pricing = () => {
                       Giặt thảm ngoại cỡ
                     </li>
                   </ul>
-                  <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <div className="flex flex-col w-full justify-center mb-6 flex-none mt-2">
+                    <p
+                      className="text-2xl text-black-600 text-center mb-4 "
+                      style={{ color: "red" }}
+                    >
                       Chỉ từ 5m/m2
                     </p>
                     <ButtonOutline>Liên hệ</ButtonOutline>
@@ -176,7 +185,7 @@ const Pricing = () => {
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl   px-6 lg:px-12 xl:px-20"
                   whileHover={{
                     scale: 1.1,
                     transition: {
@@ -192,7 +201,7 @@ const Pricing = () => {
                       alt="Free Plan"
                     />
                   </div>
-                  <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
                     Giặt TOPPER
                   </p>
                   <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -209,8 +218,11 @@ const Pricing = () => {
                       Giặt topper bông ép
                     </li>
                   </ul>
-                  <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <div className="flex flex-col w-full justify-center mb-6 flex-none mt-2">
+                    <p
+                      className="text-2xl text-black-600 text-center mb-4 "
+                      style={{ color: "red" }}
+                    >
                       Chỉ từ 250k
                     </p>
                     <ButtonOutline>Liên hệ</ButtonOutline>
@@ -222,7 +234,7 @@ const Pricing = () => {
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl   px-6 lg:px-12 xl:px-20"
                   whileHover={{
                     scale: 1.1,
                     transition: {
@@ -238,7 +250,7 @@ const Pricing = () => {
                       alt="Free Plan"
                     />
                   </div>
-                  <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
                     Giặt Ghế Ô Tô
                   </p>
                   <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -258,8 +270,11 @@ const Pricing = () => {
                       Giặt ghế ô tô nhung
                     </li>
                   </ul>
-                  <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <div className="flex flex-col w-full justify-center mb-6 flex-none mt-2">
+                    <p
+                      className="text-2xl text-black-600 text-center mb-4 "
+                      style={{ color: "red" }}
+                    >
                       Chỉ từ 400k
                     </p>
                     <ButtonOutline>Liên hệ</ButtonOutline>
@@ -271,7 +286,7 @@ const Pricing = () => {
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl   px-6 lg:px-12 xl:px-20"
                   whileHover={{
                     scale: 1.1,
                     transition: {
@@ -287,7 +302,7 @@ const Pricing = () => {
                       alt="Free Plan"
                     />
                   </div>
-                  <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
                     Giặt Ghế Văn Phòng
                   </p>
                   <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -304,8 +319,11 @@ const Pricing = () => {
                       Giặt ghế văn phòng da
                     </li>
                   </ul>
-                  <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <div className="flex flex-col w-full justify-center mb-6 flex-none mt-2">
+                    <p
+                      className="text-2xl text-black-600 text-center mb-4 "
+                      style={{ color: "red" }}
+                    >
                       Chỉ từ 25k/cái
                     </p>
                     <ButtonOutline>Liên hệ</ButtonOutline>
@@ -317,7 +335,7 @@ const Pricing = () => {
               <ScrollAnimationWrapper>
                 <motion.div
                   variants={scrollAnimation}
-                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl py-4 px-6 lg:px-12 xl:px-20"
+                  className="flex flex-col justify-center items-center border-2 border-gray-500 rounded-xl   px-6 lg:px-12 xl:px-20"
                   whileHover={{
                     scale: 1.1,
                     transition: {
@@ -333,7 +351,7 @@ const Pricing = () => {
                       alt="Free Plan"
                     />
                   </div>
-                  <p className="text-lg text-black-600 font-medium capitalize my-2 sm:my-7">
+                  <p className="text-lg text-black-600 font-semibold capitalize my-2 sm:my-7">
                     Phun khử khuẩn
                   </p>
                   <ul className="flex flex-col list-inside pl-6 xl:pl-0 items-start justify-start text-left text-black-500 flex-grow">
@@ -341,17 +359,20 @@ const Pricing = () => {
                       Phun khử trùng
                     </li>
                     <li className="relative check custom-list my-2">
-                     Phun khử khuẩn
+                      Phun khử khuẩn
                     </li>
                     <li className="relative check custom-list my-2">
-                    Phun diệt trùng
+                      Phun diệt trùng
                     </li>
                     <li className="relative check custom-list my-2">
-                    Phun diệt khuẩn
+                      Phun diệt khuẩn
                     </li>
                   </ul>
-                  <div className="flex flex-col w-full justify-center mb-8 flex-none mt-12">
-                    <p className="text-2xl text-black-600 text-center mb-4 ">
+                  <div className="flex flex-col w-full justify-center mb-6 flex-none mt-2">
+                    <p
+                      className="text-2xl text-black-600 text-center mb-4 "
+                      style={{ color: "red" }}
+                    >
                       Chỉ từ 5k/500m2
                     </p>
                     <ButtonOutline>Liên hệ</ButtonOutline>
@@ -361,24 +382,22 @@ const Pricing = () => {
             </Grid>
           </Grid>
         </div>
-        <div className="flex flex-col w-full ">
-           
-          
-      
-        </div>
-        <div className="flex flex-col w-full my-16" id="testimoni">
+        <div className="flex flex-col w-full "></div>
+        <div className="flex flex-col w-full mt-10" id="testimoni">
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
-              className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
+              className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
             >
-             Đánh giá từ khách hàng
+              Đánh giá từ khách hàng
             </motion.h3>
             <motion.p
               variants={scrollAnimation}
               className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
             >
-             Chúng tôi sẽ rất vui khi đảm nhận việc thực hiện một dự án ở bất kỳ mức độ phức tạp nào. Chúng tôi đảm bảo chất lượng công việc và có nhiều năm kinh nghiệm trong lĩnh vực vệ sinh.
+              Chúng tôi sẽ rất vui khi đảm nhận việc thực hiện một dự án ở bất
+              kỳ mức độ phức tạp nào. Chúng tôi đảm bảo chất lượng công việc và
+              có nhiều năm kinh nghiệm trong lĩnh vực vệ sinh.
             </motion.p>
           </ScrollAnimationWrapper>
           <ScrollAnimationWrapper className="w-full flex flex-col">
@@ -386,7 +405,6 @@ const Pricing = () => {
               <Testimoni />
             </motion.div>
           </ScrollAnimationWrapper>
-          
         </div>
       </div>
     </div>

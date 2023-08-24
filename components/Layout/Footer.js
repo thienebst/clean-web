@@ -16,10 +16,10 @@ const Footer = () => {
     <>
       {" "}
       <div style={{ backgroundColor: "white", padding: 10 }}>
-        <ScrollAnimationWrapper className="relative w-full mt-16">
+        <ScrollAnimationWrapper className="relative w-full mt-4 mb-6">
           <motion.div variants={scrollAnimation} custom={{ duration: 3 }}>
             <div className="  w-full">
-              <p className="text-black-600 mb-4 font-semibold text-xl mt-8 text-center">
+              <p className="text-black-600 mb-4 font-semibold text-xl  text-center">
                 Thông tin liên hệ
               </p>
               <p className="text-center w-full mb-4">
@@ -36,25 +36,24 @@ const Footer = () => {
           </motion.div>
         </ScrollAnimationWrapper>
       </div>
-      <div className="bg-white-300   px-4">
-        <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
+      <div className="row-span-2 sm:col-span-4 col-start-1 col-end-4 sm:col-end-5 flex flex-col items-start ">
           <Grid container justifyContent={"center"}>
             <div
               className="  w-full lg:w-1/2 justify-center"
               style={{ maxWidth: 400 }}
             >
               <Image
-                src="/assets/logo-gray.png"
+                src="/assets/logo-main.png"
                 alt="logo"
                 objectFit="contain"
                 layout="responsive"
                 quality={100}
-                height={"60%"}
+                height={"30%"}
                 width={"100%"}
               />
             </div>
           </Grid>
-          <p className="mb-4" style={{textAlign: 'justify'}}>
+          <p className="mb-12 px-4" style={{textAlign: 'justify'}}>
             <strong className="font-medium"> Vệ Sinh Trường Vũ </strong>
             là một công ty chuyên cung cấp các dịch vụ vệ sinh chất lượng cao
             cho các hộ gia đình, doanh nghiệp và cơ quan nhà nước. Chúng tôi có
@@ -64,33 +63,35 @@ const Footer = () => {
             tác tin cậy của bạn trong lĩnh vực vệ sinh.
           </p>
         </div>
-        <Grid container>
+      <div className="bg-white-300   px-4" style={{backgroundColor: 'black', color: 'white !important'}}>
+       
+        <Grid container   spacing={4}>
           <Grid item xs={12} md={6} lg={4}>
-            <Grid container justifyContent={"left"}>
+            <Grid container justifyContent={"left"}  >
               <div>
-                <p className="text-black-600 mb-4 font-semibold text-xl mt-8">
-                  Về Chúng tôi
+                <p className="  mb-4 font-semibold text-xl" style={{color: 'white'}}>
+                  VỀ CHÚNG TÔI
                 </p>
                 <ul className="text-black-500 ">
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Tại sao chọn Vệ Sinh Trường Vũ?
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all" style={{color: 'white'}}>
                     Đạo đức kinh doanh
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Tiêu chí bán hàng
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Cam kết dịch vụ
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Chính sách bảo hành
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Phản ánh yêu cầu
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Tuyển dụng nhân sự
                   </li>
                 </ul>
@@ -100,26 +101,26 @@ const Footer = () => {
           <Grid item xs={12} md={6} lg={4}>
             <Grid container justifyContent={"left"}>
               <div>
-                <p className="text-black-600 mb-4 font-semibold text-lg">
-                  Hỗ trợ khách hàng
+                <p className="text-black-600 mb-4 font-semibold text-lg"style={{color: 'white'}}>
+                  HỖ TRỢ KHÁCH HÀNG
                 </p>
                 <ul className="text-black-500">
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Đánh giá về Vệ Sinh Trường Vũ
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Mức giảm giá niêm yết
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Hướng dẫn đặt lịch
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Chính sách giao nhân
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Hướng dẫn thanh toán
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Bảo mật thông tin
                   </li>
                 </ul>
@@ -129,14 +130,14 @@ const Footer = () => {
           <Grid item xs={12} md={6} lg={4}>
             <Grid container justifyContent={"left"}>
               <div>
-                <p className="text-black-600 mb-4 font-semibold text-lg">
-                  Kết nối với chúng tôi
+                <p className="text-black-600 mb-4 font-semibold text-lg"style={{color: 'white'}}>
+                  KẾT NỐI VỚI CHÚNG TÔI
                 </p>
                 <ul className="text-black-500">
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Điện thoại: 0933.487.304
                   </li>
-                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all">
+                  <li className="my-2 hover:text-orange-500 cursor-pointer transition-all"style={{color: 'white'}}>
                     Địa chỉ: 34 Tô ký - Tân Chánh Hiệp - Quân 12
                   </li>
                   <li>
