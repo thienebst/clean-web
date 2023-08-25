@@ -4,18 +4,18 @@ import { useRouter } from "next/router";
 
 // Default value for some meta data
 const defaultMeta = {
-  title: 'LaslesVPN',
-  siteName: 'LaslesVPN',
+  title: 'Vệ Sinh Trường Vũ',
+  siteName: 'vesinhtruongvu.com',
   description:
-    'Landing page VPN LaslesVPN Best VPN For Privacy, Country and Cheapest',
+    'Dịch vụ vệ sinh tại nhà',
   // change base url of your web (without '/' at the end)
-  url: 'https://next-landing-vpn.vercel.app',
+  url: 'https://vesinhtruongvu.com',
   type: 'website',
   robots: 'follow, index',
   // change with url of your image (recommended dimension = 1.91:1)
   // used in twitter, facebook, etc. card when link copied in tweet/status 
-  image: 'https://next-landing-vpn.vercel.app/assets/card-image.png',
-  author: 'Lorem Ipsum'
+  image: 'https://vesinhtruongvu/assets/logo-main.png',
+  author: 'ThienPham'
 };
 
 /**
@@ -83,14 +83,12 @@ const SeoHead = (props) => {
         </>
       )}
       {/* Favicons */}
-      {favicons.map((linkProps) => (
-        <link key={linkProps.href} {...linkProps} />
-      ))}
+      <link rel="icon" href="assets/icon-logo.jpg"/>
       {/* Windows 8 app icon */}
       <meta name='msapplication-TileColor' content='#F53838' />
       <meta
         name='msapplication-TileImage'
-        content='/favicon/ms-icon-144x144.png'
+        content='/assets/icon-logo.jpg'
       />
       {/* Accent color on supported browser */}
       <meta name='theme-color' content='#F53838' />
@@ -152,7 +150,7 @@ const favicons = [
   },
   {
     rel: 'icon',
-    href: '/favicon/favicon.ico',
+    href: '/assets/icon-logo.jpg',
   },
   {
     rel: 'icon',

@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
     <div div className="relative">
         <div style={{height: 30, background: 'green'}}>
       <Grid container justifyContent={'center'} style={{color: '#FFD700'}}>
-        Đặt Lịch 24/6: 0933.487.304
+        Đặt Lịch 24/7: 0933.487.304
       </Grid>
     </div>
       <Header />
@@ -18,11 +18,11 @@ const Layout = ({ children }) => {
       <div className="md:px-32">{children}</div>
 
       <Footer />
-      <div className="fixed  " style={{ bottom: 10, left: 10 }}>
+      <div className="fixed  " style={{ bottom: 30, left: 30 }}>
         <IconButton
           color="secondary"
           aria-label="add an alarm"
-          size="medium"
+          size="large"
           style={{
             backgroundColor: "green",
             color: "white",
@@ -36,11 +36,11 @@ const Layout = ({ children }) => {
           </a>
         </IconButton>
       </div>
-      <div className="fixed  " style={{ bottom: 10, right: 10 }}>
+      <div className="fixed  " style={{ bottom: 30, right: 30 }}>
         <IconButton
           color="secondary"
           aria-label="add an alarm"
-          size="medium"
+          size="large"
           style={{
             backgroundColor: "#0c88ef",
             color: "white",
@@ -52,26 +52,30 @@ const Layout = ({ children }) => {
             {" "}
             <Avatar
               alt="Remy Sharp"
-              src="/assets/mess.svg"
+              src="/assets/messenger.png"
               style={{ width: 25, height: 25 }}
             />
           </a>
         </IconButton>
       </div>
-      <div className="fixed  " style={{ bottom: 60, right: 10 }}>
+      <div className="fixed  " style={{ bottom: 90, right: 30 }}>
         <IconButton
           color="secondary"
           aria-label="add an alarm"
-          size="medium"
+          size="large"
           style={{
-            backgroundColor: "#0c88ef",
+            backgroundColor: "rgba(1, 72, 239, 0.6)",
             color: "white",
             boxShadow: "rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px",
           }}
         >
-          <a href={"https://www.facebook.com/vesinhsofatainha/"}>
-           
-            <FacebookIcon />
+          <a href={"https://zaloapp.com/qr/p/bf446jyiodv9"}>
+          
+          <Avatar
+              alt="Remy Sharp"
+              src="/assets/icons8-zalo-48.png"
+              style={{ width: 25, height: 25 }}
+            />
           </a>
         </IconButton>
       </div>

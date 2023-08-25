@@ -30,7 +30,7 @@ const Hero = ({
   return (
     <div className="max-w-screen-xl mt-12 px-8 xl:px-16 mx-auto md:mt-40 lg:mt-20 relative" id="about">
        <div className="absolute" style={{top: '-20px', left: 0,width: '100%'}}> <Image
-            src="/assets/cover.jpg"
+            src="/assets/hoachat.jpg"
             alt="VPN Illustrasi"
             quality={100}
             objectFit="contain"
@@ -45,7 +45,7 @@ const Hero = ({
         <Grid item className="w-full">
            
           <h2 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-black-600 leading-normal text-center" style={{color: 'red', fontSize: 18}}>
-            DỊCH VỤ GIẶT GHẾ SOFA TẠI NHÀ Ở TP.HCM
+            DỊCH VỤ VỆ SINH TẠI NHÀ Ở TP.HCM
           </h2>
         </Grid>
         <Grid item className="w-full">

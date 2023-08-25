@@ -96,7 +96,8 @@ function ResponsiveDrawer(props) {
         </ListItem>
         <Divider />
         {[...MENUS].map((item, index) => (
-          <ListItem key={index} disablePadding style={{ padding: "5px 0" }}>
+         <>
+           <ListItem key={index} disablePadding style={{ padding: "5px 0" }}>
             <Link href={item.pathName || ""}>
               <ListItemButton>
                 <ListItemIcon  
@@ -111,7 +112,10 @@ function ResponsiveDrawer(props) {
                 />
               </ListItemButton>
             </Link>
+            
           </ListItem>
+          <Divider  style={{borderColor: 'rgba(0, 0, 0, 0.04)'}} />
+          </>
         ))}
          <ListItem key={"ddddd"} disablePadding style={{ paddingLeft: 2 }}>
           <div className=" grid" style={{ width: 150, height: 300 }}> 
