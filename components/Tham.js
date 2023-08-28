@@ -368,6 +368,8 @@ const Tham = () => {
           văn phòng cũng giúp bảo vệ độ bền và màu sắc của thảm, tăng tính thẩm
           mỹ và chuyên nghiệp cho không gian làm việc.
         </div>
+        <ImageDes src="/assets/tham2.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
+
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Giặt thảm bằng máy hút bụi: Đây là cách đơn giản và tiết kiệm nhất để
@@ -383,6 +385,8 @@ const Tham = () => {
           cần rắc baking soda lên vết bẩn, để từ 20 đến 30 phút rồi hút lại bằng
           máy hút bụi. Baking soda sẽ giúp khử mùi và hút ẩm trên thảm.
         </div>
+        <ImageDes src="/assets/tham1.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
+
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Giặt thảm bằng máy xịt áp lực: Đây là cách giặt thảm văn phòng hiệu
@@ -414,6 +418,8 @@ const Tham = () => {
           giặt thảm chuyên nghiệp. Dưới đây là một số thông tin về cách giặt
           thảm trang trí:
           <br />{" "}
+        <ImageDes src="/assets/tham3.jpg" title={"Dịch vụ vệ sinh TP HCM"} />
+
           <LightbulbCircleIcon
             style={{ color: "#FFD700", marginRight: 5 }}
           />{" "}

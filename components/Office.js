@@ -214,6 +214,10 @@ const Office = () => {
           giới thiệu cho bạn một số cách giặt ghế văn phòng vải tại nhà mà bạn có thể
           thực hiện dễ dàng và nhanh chóng.
         </div>
+        <ImageDes
+          src="/assets/ghe1.jpg"
+          title={"Dịch vụ giặt ghế văn phòng TP HCM"}
+        />
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Cách giặt ghế văn phòng vải tùy thuộc vào chất liệu và ký hiệu trên nhãn
@@ -289,7 +293,7 @@ const Office = () => {
           Mang lại cảm giác sang trọng, ấm cúng và thoải mái cho không gian nội
           thất.
           <ImageDes
-          src="/assets/des17.jpg"
+          src="/assets/ghe2.jpg"
           title={"Dịch vụ giặt TP HCM"}
         />
           <br />{" "}

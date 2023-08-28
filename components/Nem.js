@@ -43,21 +43,40 @@ const rows = [
 const steps = [
   {
     label: "Hút sạch bụi trên nệm",
-    description: `Hút bụi trên bề mặt nệm bằng máy hút bụi hoặc khăn ẩm. Đây là bước quan trọng để loại bỏ các mảnh vụn, bụi bẩn và xơ vải trên nệm.`,
+    description: `Hút bụi trên bề mặt nệm bằng máy hút bụi hoặc khăn ẩm.`,
   },
   {
     label: "Làm sạch các điểm bẩn",
     description:
-      "Pha loãng dung dịch tẩy rửa chuyên dụng cho ghế thảm nhung với nước theo tỉ lệ 1:10. Bạn có thể mua dung dịch này tại các cửa hàng bán đồ nội thất hoặc trên mạng ",
+      "Pha loãng dung dịch tẩy rửa chuyên dụng cho ghế thảm nhung với nước theo tỉ lệ 1:10.",
   },
   {
     label: "Kiểm tra chất liệu thảm có phù hợp với giặt bằng hơi nước nóng",
-    description: `Nhúng khăn mềm vào dung dịch tẩy rửa và vắt khô. Sau đó lau nhẹ nhàng theo chiều của sợi nhung trên ghế thảm. Không nên lau quá mạnh hoặc quá ướt để tránh làm hỏng lớp nhung.`,
+    description: `Nhúng khăn mềm vào dung dịch tẩy rửa và vắt khô. Sau đó lau nhẹ nhàng theo chiều của sợi nhung trên ghế thảm.`,
   },
   {
     label: "Dùng máy hơi nước nóng",
     description:
-      "Lau lại ghế thảm bằng khăn khô hoặc giấy ăn để loại bỏ các vết ẩm và chất tẩy rửa còn sót lại. Để ghế thảm khô hoàn toàn trước khi sử dụng.",
+      "Dưới tác động của áp suất cao, hơi nước nóng lên lỏi vào các sợi vải và được làm sạch nhanh chóng.",
+  },
+  {
+    label: "Sử dụng bàn chải mềm làm sạch bề mặt nệm",
+    description: "Đảm bảo loại bỏ hoàn toàn vết bẩn còn lại sau khi phun dung dịch."
+  },
+  {
+    label: "Dùng mái hút nước bẩn và bụi dơ của ghế nệm",
+    description:
+      "Loại bỏ hoàn toàn nước và chất cặn bã sau quá trình giặt.",
+  },
+  {
+    label: "Dùng nước xả vải cho nệm",
+    description:
+      "Sử dụng nước xả vải để ghế có mùi hương thơm tự nhiên và làm mềm bề mặt vải. ",
+  },
+  {
+    label: "Dùng máy sấy sấy nệm",
+    description:
+      "Sử dụng máy sấy hoặc để khô tự nhiên. Mang nệm ra nơi thoáng mát để ghế được khô một cách tự nhiên hoặc sử dụng quạt để hong khô ghế. ",
   },
 ];
 const Nem = () => {

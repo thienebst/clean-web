@@ -69,34 +69,32 @@ const Footer = () => {
         spacing={2}
         style={{
           padding: "0 10px 80px",
-          backgroundColor: "#faa499",
-          backgroundImage:
-            " linear-gradient(319deg, #faa499 0%, #f7dd85 37%, #ffc55c 100%)",
+          backgroundColor: "green",
         }}
       >
         <Grid item xs={12} md={6}>
-          <div style={{ fontSize: 18, color: "green", fontWeight: "bold" }}>
+          <div style={{ fontSize: 18, color: "white", fontWeight: "bold" }}>
             {" "}
             Chi nhánh 1
           </div>
           <div>Địa chỉ: 34 Tô ký - Tân Chánh Hiệp - Quân 12</div>
         </Grid>
         <Grid item xs={12} md={6}>
-          <div style={{ fontSize: 18, color: "green", fontWeight: "bold" }}>
+          <div style={{ fontSize: 18, color: "white", fontWeight: "bold" }}>
             {" "}
             Chi nhánh 2
           </div>
           <div>Địa chỉ: 230 Cộng Hòa - Tân Bình - TP Hồ Chí Minh</div>
         </Grid>
         <Grid item xs={12} md={6}>
-          <div style={{ fontSize: 18, color: "green", fontWeight: "bold" }}>
+          <div style={{ fontSize: 18, color: "white", fontWeight: "bold" }}>
             {" "}
             Chi nhánh 3
           </div>
           <div>Địa chỉ: 1256 Kha Vạn Cân - Linh Tây - TP Thủ Đức</div>
         </Grid>
         <Grid item xs={12} md={6}>
-          <div style={{ fontSize: 18, color: "green", fontWeight: "bold" }}>
+          <div style={{ fontSize: 18, color: "white", fontWeight: "bold" }}>
             {" "}
             Chi nhánh 4
           </div>

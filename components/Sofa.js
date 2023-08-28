@@ -72,19 +72,36 @@ const steps = [
     description: `Chà sạch vết bẩn bằng bàn chải kết hợp hơi nước nóng. Sử dụng máy phun hút hơi nước nóng để phun hơi nước có nhiệt độ cao lên các vết bẩn trên ghế`,
   },
   {
+    label: "Phun dung dịch làm sạch chuyên dụng lên ghế sofa",
+    description: "Dụng dịch giúp tăng hiệu quả làm sạch, loại bỏ vết bẩn và mùi hôi"
+  },
+  {
+    label: "Phun dung hơi nước nóng chứa Ion++ diệt khuẩn sofa",
+    description: "Hơi nước giúp diệt khuẩn, làm sạch sâu và khử mùi."
+  },
+  {
     label: "Dùng máy hơi nước nóng",
     description:
-      "Các bạn bắt đầu giặt ghế sofa bằng máy hơi nước nóng, sau khi hoàn tất xong các bước trên. Dưới tác động của áp suất cao, hơi nước nóng lên lỏi vào các sợi vải và được làm sạch nhanh chóng. Đồng thời, dưới tác động của nhiệt độ cao sẽ giúp tiêu diệt vi khuẩn, các vi sinh vật, mùi, nấm, mốc trong các ngóc ngách của ghế sofa.",
+      "Dưới tác động của áp suất cao, hơi nước nóng lên lỏi vào các sợi vải và được làm sạch nhanh chóng.",
+  },
+  {
+    label: "Sử dụng bàn chải mềm làm sạch bề mặt sofa",
+    description: "Đảm bảo loại bỏ hoàn toàn vết bẩn còn lại sau khi phun dung dịch."
+  },
+  {
+    label: "Dùng mái hút nước bẩn và bụi dơ của ghế sofa",
+    description:
+      "Loại bỏ hoàn toàn nước và chất cặn bã sau quá trình giặt.",
   },
   {
     label: "Dùng nước xả vải cho ghế sofa",
     description:
-      "Sau khi quá trình làm sạch ghế sofa đã hoàn tất, các bạn nên sử dụng nước xả vải để ghế có mùi hương thơm tự nhiên và làm mềm bề mặt vải. Sử dụng nước xả vải phù hợp với chất liệu ghế sofa giúp tăng độ đàn hồi cho sợi vải và giữ cho các sợi vải luôn bền đẹp. ",
+      "Sử dụng nước xả vải để ghế có mùi hương thơm tự nhiên và làm mềm bề mặt vải. ",
   },
   {
     label: "Dùng máy sấy sấy ghế sofa",
     description:
-      "Sau quá trình giặt ghế xong, để làm khô ghế sofa, các bạn có thể sử dụng máy sấy hoặc để khô tự nhiên. Các bạn mang ghế sofa ra nơi thoáng mát để ghế được khô một cách tự nhiên hoặc sử dụng quạt để hong khô ghế. ",
+      "Sử dụng máy sấy hoặc để khô tự nhiên. Mang sofa ra nơi thoáng mát để ghế được khô một cách tự nhiên hoặc sử dụng quạt để hong khô ghế. ",
   },
 ];
 const Sofa = () => {
