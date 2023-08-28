@@ -7,53 +7,53 @@ import Stars from "../public/assets/Icon/stars.svg";
 import ArrowBack from "../public/assets/Icon/eva_arrow-back-fill.svg";
 import ArrowNext from "../public/assets/Icon/eva_arrow-next-fill.svg";
 
-const Testimoni = ({
+const Preview = ({
   listTestimoni = [
     {
-      name: "iezh Robert",
-      image: "/assets/dev1.jpg",
-      city: "Warsaw",
+      name: "chị Yến",
+      image: "/assets/u1.gif",
+      city: "Công ty Khánh Hội",
       country: "Poland",
       rating: "4.5",
       testimoni:
         "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/dev2.jpg",
+      name: "anh Tiến",
+      image: "/assets/u2.jpg",
 
-      city: "Warsaw",
+      city: "Văn Phòng VPCT",
       country: "Poland",
       rating: "4.5",
       testimoni:
         "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
     },
     {
-      name: "iezh Robert",
-      image: "/assets/dev3.jpg",
+      name: "anh Minh",
+      image: "/assets/u3.jpg",
 
-      city: "Warsaw",
+      city: "Công ty Việt Á",
       country: "Poland",
       rating: "4.5",
       testimoni:
         "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
     },
     
-    {
-      name: "iezh Robert",
-      image: "/assets/dev5.jpg",
+    // {
+    //   name: "iezh Robert",
+    //   image: "/assets/u5.jpg",
 
-      city: "Warsaw",
-      country: "Poland",
-      rating: "4.5",
-      testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
-    },
+    //   city: "Warsaw",
+    //   country: "Poland",
+    //   rating: "4.5",
+    //   testimoni:
+    //     "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+    // },
     {
-      name: "iezh Robert",
-      image: "/assets/dev4.jpg",
+      name: "anh Huy",
+      image: "/assets/u4.jpg",
 
-      city: "Warsaw",
+      city: "Chung cư Đông PHương",
       country: "Poland",
       rating: "4.5",
       testimoni:
@@ -74,6 +74,7 @@ const Testimoni = ({
     infinite: true,
     speed: 500,
     slidesToShow: 3,
+    variableWidth: true,
     slidesToScroll: 2,
     responsive: [
       {
@@ -101,43 +102,44 @@ const Testimoni = ({
         {...settings}
         arrows={false}
         ref={setSliderRef}
-        className="flex items-stretch justify-items-stretch "
+        className="flex items-stretch justify-items-stretch h-80 "
+    
       >
         {listTestimoni.map((listTestimonis, index) => (
-          <div className="  flex items-stretch p-1" key={index}>
+          <div className="  flex items-stretch p-1" key={index}  style={{ width: 280 }}>
             <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-4 flex flex-col">
-              {/* <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
-                <div className="flex order-2 xl:order-1">
+              <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
+                <div className="flex order-2 xl:order-1" >
                   <Image
                     src={listTestimonis.image}
                     height={50}
                     width={50}
                     alt="Icon People"
+                    style={{borderRadius: '50%'}}
+                    objectFit="cover"
                   />
                   <div className="flex flex-col ml-5 text-left">
                     <p className="text-lg text-black-600 capitalize">
                       {listTestimonis.name}
                     </p>
                     <p className="text-sm text-black-500 capitalize">
-                      {listTestimonis.city},{listTestimonis.country}
+                      {listTestimonis.city} 
                     </p>
                   </div>
                 </div>
                 <div className="flex flex-none items-center ml-auto order-1 xl:order-2">
-                  <p className="text-sm">{listTestimonis.rating}</p>
-                  <span className="flex ml-4">
+                  {/* <p className="text-sm">{5}</p> */}
+                  <span className="flex ml-4 my-2">
+                    <Stars className="h-4 w-4" />
+                    <Stars className="h-4 w-4" />
+                    <Stars className="h-4 w-4" />
+                    <Stars className="h-4 w-4" />
                     <Stars className="h-4 w-4" />
                   </span>
                 </div>
-              </div> */}
-              {/* <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p> */}
-              <Image
-                src={listTestimonis.image}
-                height={400}
-                width={400}
-                objectFit="contain"
-                alt="Icon People"
-              />
+              </div>
+              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+              
             </div>
           </div>
         ))}
@@ -162,4 +164,4 @@ const Testimoni = ({
   );
 };
 
-export default Testimoni;
+export default Preview;
