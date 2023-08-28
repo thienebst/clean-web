@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
           }}
           className="call_button"
         >
-          <a href={"tel:+4733378901"}>
+          <a href={"tel:0933487304"}>
             {" "}
             <CallIcon />
           </a>
