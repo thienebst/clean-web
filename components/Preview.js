@@ -16,7 +16,7 @@ const Preview = ({
       country: "Poland",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+      "Công ty chúng tôi được chăm sóc toàn diện bởi Vệ Sinh Trường Vũ. Đơn vị cung cấp giải pháp làm sạch và chăm sóc đồ nội thất thật sự hiệu quả, uy tín 🥰🥰",
     },
     {
       name: "anh Tiến",
@@ -26,7 +26,7 @@ const Preview = ({
       country: "Poland",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Tôi đã sử dụng dịch vụ ở đây hơn 5 năm cho văn phòng của mình và tôi cực kì tin tưởng vào chất lượng, tinh thần phục vụ của Vệ Sinh Trường Vũ.",
     },
     {
       name: "anh Minh",
@@ -36,7 +36,7 @@ const Preview = ({
       country: "Poland",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Rất chuyên nghiệp từ dịch vệ sinh của Vệ Sinh Trường Vũ, từ tư vấn cho đến công tác làm việc, hy vọng sẽ hợp tác và làm việc lâu dài cùng với các bạn.",
     },
     
     // {
@@ -57,7 +57,7 @@ const Preview = ({
       country: "Poland",
       rating: "4.5",
       testimoni:
-        "Wow... I am very happy to use this VPN, it turned out to be more than my expectations and so far there have been no problems. LaslesVPN always the best",
+        "Tôi đã làm việc cùng với rất nhiều dịch vụ vê sinh nhưng Vệ Sinh Trường Vũ vẫn là đối tác mà tôi tin tưởng và sử dụng dịch vụ của họ.",
     },
   ],
 }) => {
@@ -106,7 +106,7 @@ const Preview = ({
     
       >
         {listTestimoni.map((listTestimonis, index) => (
-          <div className="  flex items-stretch p-1" key={index}  style={{ width: 280 }}>
+          <div className="  flex items-stretch p-1" key={index}  style={{ width: 280  }}>
             <div className="border-2 border-gray-500 hover:border-orange-500 transition-all rounded-lg p-4 flex flex-col">
               <div className="flex flex-col xl:flex-row w-full items-stretch xl:items-center">
                 <div className="flex order-2 xl:order-1" >
@@ -138,7 +138,7 @@ const Preview = ({
                   </span>
                 </div>
               </div>
-              <p className="mt-5 text-left">“{listTestimonis.testimoni}”.</p>
+              <p className="mt-5 text-left" style={{fontStyle: 'italic', minHeight: 150}}>“{listTestimonis.testimoni}”.</p>
               
             </div>
           </div>
