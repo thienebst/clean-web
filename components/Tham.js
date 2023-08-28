@@ -90,21 +90,41 @@ const rows1 = [
 const steps = [
   {
     label: "Hút sạch bụi trên thảm",
-    description: `Hút bụi toàn bộ thảm trước khi giặt để loại bỏ phần lớn cát, bụi, đất ở trong thảm ra ngoài. Bạn có thể sử dụng máy hút bụi chuyên dụng hoặc máy hút bụi thông thường.`,
+    description: `Hút bụi toàn bộ thảm trước khi giặt để loại bỏ phần lớn cát, bụi, đất ở trong thảm ra ngoài.`,
   },
   {
     label: "Làm sạch các điểm bẩn",
     description:
-      "Phun hóa chất trước khi giặt 3-5 phút để chúng có thời gian tác dụng. Bạn có thể sử dụng các loại hóa chất làm sạch thảm có bán trên thị trường hoặc tự pha chế từ các nguyên liệu tự nhiên như giấm, baking soda, oxy già.",
+      "Phun hóa chất trước khi giặt 3-5 phút để chúng có thời gian tác dụng. ",
   },
   {
     label: "Kiểm tra chất liệu có phù hợp với giặt bằng hơi nước nóng",
-    description: `Vệ sinh và khử trùng thảm bằng máy giặt thảm hơi nước nóng. Bạn có thể mua hoặc thuê máy giặt thảm hơi nước nóng để sử dụng tại nhà hoặc thuê dịch vụ giặt thảm của các công ty chuyên nghiệp. Máy giặt thảm hơi nước nóng sẽ phun hơi nước nóng lên bề mặt thảm và đồng thời hút lại toàn bộ nước, chất bẩn sâu bên trong`,
+    description: `Vệ sinh và khử trùng thảm bằng máy giặt thảm hơi nước nóng.. 
+    `,
   },
   {
     label: "Dùng máy hơi nước nóng",
     description:
-      "Phơi khô thảm sau khi giặt. Bạn có thể phơi thảm ở nơi thoáng mát, tránh ánh nắng trực tiếp để không làm hư hại cấu trúc lông thảm. Bạn cũng cần đảo ngược mặt thảm để đảm bảo cả hai mặt đều được khô ráo",
+      "Dưới tác động của áp suất cao, hơi nước nóng lên lỏi vào các sợi vải và được làm sạch nhanh chóng.",
+  },
+  {
+    label: "Sử dụng bàn chải mềm làm sạch bề mặt thảm",
+    description: "Đảm bảo loại bỏ hoàn toàn vết bẩn còn lại sau khi phun dung dịch."
+  },
+  {
+    label: "Dùng mái hút nước bẩn và bụi dơ của ghế thảm",
+    description:
+      "Loại bỏ hoàn toàn nước và chất cặn bã sau quá trình giặt.",
+  },
+  {
+    label: "Dùng nước xả vải cho thảm",
+    description:
+      "Sử dụng nước xả vải để ghế có mùi hương thơm tự nhiên và làm mềm bề mặt vải. ",
+  },
+  {
+    label: "Dùng máy sấy sấy thảm",
+    description:
+      "Sử dụng máy sấy hoặc để khô tự nhiên. Mang thảm ra nơi thoáng mát để ghế được khô một cách tự nhiên hoặc sử dụng quạt để hong khô ghế. ",
   },
 ];
 const Tham = () => {
