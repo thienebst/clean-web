@@ -367,6 +367,32 @@ const Pricing = () => {
           <ScrollAnimationWrapper>
             <motion.h3
               variants={scrollAnimation}
+              className=" font-semibold text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
+              style={{color: 'red', fontSize: 20}}
+            >
+              5 Cam Kết Vàng Của Vệ Sinh Trường Vũ    
+            </motion.h3>
+            <motion.p
+              variants={scrollAnimation}
+              className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12"
+            >
+             
+            </motion.p>
+          </ScrollAnimationWrapper>
+          <ScrollAnimationWrapper className="w-full flex flex-col">
+            <motion.div variants={scrollAnimation}>
+            <div style={{ textAlign: 'left', marginBottom: 10, padding: '0 10px'}}><span style={{color: 'red', fontWeight: 'bold'}}>01 Tận Tụy: </span><span>Đội ngũ kĩ thuật viên Vệ Sinh Trường Vũ có kinh nghiệm, trách nhiệm và tận tâm.</span></div>
+            <div style={{ textAlign: 'left', marginBottom: 10, padding: '0 10px'}}><span style={{color: 'red', fontWeight: 'bold'}}>02 Tận Tụy: </span><span>Đầy đủ thân thiện và đem lại sự hài lòng cho khách hàng.</span></div>
+            <div style={{ textAlign: 'left', marginBottom: 10, padding: '0 10px'}}><span style={{color: 'red', fontWeight: 'bold'}}>03 Tận Tụy: </span><span>Giải pháp linh hoạt phù hợp cho từng công trình.</span></div>
+            <div style={{ textAlign: 'left', marginBottom: 10, padding: '0 10px'}}><span style={{color: 'red', fontWeight: 'bold'}}>04 Tận Tụy: </span><span>Khoa học, nhanh chóng, tận dụng thời gian tối đa.</span></div>
+              <div style={{ textAlign: 'left', marginBottom: 10, padding: '0 10px'}}><span style={{color: 'red', fontWeight: 'bold'}}>05 Tận Tụy: </span><span>Được khách hàng bình chọn vượt trội và uy tín.</span></div>
+            </motion.div>
+          </ScrollAnimationWrapper>
+        </div>
+        <div className="flex flex-col w-full mt-10" id="testimoni">
+          <ScrollAnimationWrapper>
+            <motion.h3
+              variants={scrollAnimation}
               className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto"
               style={{color: 'red'}}
             >

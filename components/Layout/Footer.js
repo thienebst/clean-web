@@ -323,6 +323,12 @@ const Footer = () => {
                   >
                     Địa chỉ: 34 Tô ký - Tân Chánh Hiệp - Quân 12
                   </li>
+                  <li
+                    className="my-2 hover:text-orange-500 cursor-pointer transition-all"
+                    style={{ color: "white" }}
+                  >
+                    Email: Vesinhtruongvu@gmail.com
+                  </li>
                   
                 </ul>
               </div>

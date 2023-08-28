@@ -460,7 +460,7 @@ const Tham = () => {
         </div>
 
         <ImageDes
-          src="/assets/des9.jpg"
+          src="/assets/des9.png"
           title={"Dịch vụ vệ sinh TP HCM"}
         />
       </div>
