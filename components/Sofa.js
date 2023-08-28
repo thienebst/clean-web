@@ -65,7 +65,7 @@ const steps = [
   {
     label: "Làm sạch các điểm bẩn",
     description:
-      "Tẩy điểm các vết bẩn cứng đầu bằng hóa chất tẩy rửa chuyên dụnghoặc dung dịch vệ sinh ghế sofa",
+      "Tẩy điểm các vết bẩn cứng đầu bằng hóa chất tẩy rửa chuyên dụng hoặc dung dịch vệ sinh ghế sofa",
   },
   {
     label: "Kiểm tra chất liệu sofa có phù hợp với giặt bằng hơi nước nóng",

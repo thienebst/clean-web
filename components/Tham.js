@@ -27,7 +27,7 @@ const rows = [
   {
     col1: "Giặt thảm văn phòng",
     col2: "Dưới 60m2",
-    col3: "300.000 đ",
+    col3: "750.000 đ",
   },
   {
     col1: "Giặt thảm văn phòng",

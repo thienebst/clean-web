@@ -56,7 +56,7 @@ const steps = [
   {
     label: "Dùng máy hơi nước nóng",
     description:
-      " Dùng con sơn dương để xoa đều dung dịch lên ghế theo hướng xoắn ốc. Sau đó, lau khô bằng khăn sạch",
+      " Xoa đều dung dịch lên ghế theo hướng xoắn ốc. Sau đó, lau khô bằng khăn sạch",
   },
   {
     label: "Dùng nước xả vải cho ghế văn phòng",

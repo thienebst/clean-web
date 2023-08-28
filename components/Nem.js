@@ -48,11 +48,11 @@ const steps = [
   {
     label: "Làm sạch các điểm bẩn",
     description:
-      "Pha loãng dung dịch tẩy rửa chuyên dụng cho ghế thảm nhung với nước theo tỉ lệ 1:10.",
+      "Pha loãng dung dịch tẩy rửa chuyên dụng cho nệm nhung với nước theo tỉ lệ 1:10.",
   },
   {
-    label: "Kiểm tra chất liệu thảm có phù hợp với giặt bằng hơi nước nóng",
-    description: `Nhúng khăn mềm vào dung dịch tẩy rửa và vắt khô. Sau đó lau nhẹ nhàng theo chiều của sợi nhung trên ghế thảm.`,
+    label: "Kiểm tra chất liệu nệm có phù hợp với giặt bằng hơi nước nóng",
+    description: `Nhúng khăn mềm vào dung dịch tẩy rửa và vắt khô. Sau đó lau nhẹ nhàng theo chiều của sợi nhung trên nệm.`,
   },
   {
     label: "Dùng máy hơi nước nóng",
@@ -64,19 +64,19 @@ const steps = [
     description: "Đảm bảo loại bỏ hoàn toàn vết bẩn còn lại sau khi phun dung dịch."
   },
   {
-    label: "Dùng mái hút nước bẩn và bụi dơ của ghế nệm",
+    label: "Dùng mái hút nước bẩn và bụi dơ của nệm",
     description:
       "Loại bỏ hoàn toàn nước và chất cặn bã sau quá trình giặt.",
   },
   {
     label: "Dùng nước xả vải cho nệm",
     description:
-      "Sử dụng nước xả vải để ghế có mùi hương thơm tự nhiên và làm mềm bề mặt vải. ",
+      "Sử dụng nước xả vải để nệm có mùi hương thơm tự nhiên và làm mềm bề mặt vải. ",
   },
   {
     label: "Dùng máy sấy sấy nệm",
     description:
-      "Sử dụng máy sấy hoặc để khô tự nhiên. Mang nệm ra nơi thoáng mát để ghế được khô một cách tự nhiên hoặc sử dụng quạt để hong khô ghế. ",
+      "Sử dụng máy sấy hoặc để khô tự nhiên. Mang nệm ra nơi thoáng mát để nệm được khô một cách tự nhiên hoặc sử dụng quạt để hong khô nệm. ",
   },
 ];
 const Nem = () => {
@@ -227,7 +227,7 @@ const Nem = () => {
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có độ đàn hồi cao, ôm sát cơ thể và hỗ trợ tốt cho xương khớp.
         </div>
-        <ImageDes src="/assets/nem.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
+        <ImageDes src="/assets/nemcaosu.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có khả năng thông thoáng, chống ẩm mốc và chống bụi bẩn.
