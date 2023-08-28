@@ -182,6 +182,7 @@ const Nem = () => {
           </TableBody>
         </Table>
       </TableContainer>
+      <ImageDes src="/assets/nem1.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
 
       <p
         className="text-black-600 mb-4 font-semibold text-lg mt-8 text-center "
@@ -207,7 +208,7 @@ const Nem = () => {
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có độ đàn hồi cao, ôm sát cơ thể và hỗ trợ tốt cho xương khớp.
         </div>
-        <ImageDes src="/assets/des26.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
+        <ImageDes src="/assets/nem.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
         <div style={{ fontSize: 18, marginTop: 10, textAlign: "justify" }}>
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có khả năng thông thoáng, chống ẩm mốc và chống bụi bẩn.
@@ -220,7 +221,7 @@ const Nem = () => {
           <LightbulbCircleIcon style={{ color: "#FFD700", marginRight: 5 }} />
           Có độ bền cao, không bị biến dạng hay xẹp lún theo thời gian.
         </div>
-        <ImageDes src="/assets/des4.png" title={"Dịch vụ giặt nệm TP HCM"} />
+        <ImageDes src="/assets/nem2.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
       </div>
       <div style={{ padding: 15 }}>
         <div

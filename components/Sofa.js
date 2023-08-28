@@ -331,6 +331,10 @@ const Sofa = () => {
           </TableBody>
         </Table>
       </TableContainer>
+      <ImageDes
+          src="/assets/sofa1.jpg"
+          title={"Dịch vụ giặt ghế sofa TP HCM"}
+        />
       <p
         className="text-black-600 mb-4 font-semibold text-lg mt-8 text-center "
         style={{ color: "red" }}
