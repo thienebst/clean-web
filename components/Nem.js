@@ -255,7 +255,7 @@ const Nem = () => {
           việc đơn giản, vì nệm lò xo có kích thước lớn, cồng kềnh và chứa nhiều
           bụi bẩn, vi khuẩn, nấm mốc. Để giặt nệm lò xo hiệu quả, bạn cần thực
           hiện theo các bước sau:
-          <ImageDes src="/assets/des27.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
+          <ImageDes src="/assets/nemm.jpg" title={"Dịch vụ giặt nệm TP HCM"} />
           <br />{" "}
           
           <LightbulbCircleIcon
